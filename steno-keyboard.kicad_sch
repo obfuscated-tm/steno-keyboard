@@ -5,173 +5,6 @@
 	(uuid "e5f177c4-7dbe-4f24-bca4-1a318cfae51c")
 	(paper "A3")
 	(lib_symbols
-		(symbol "Diode:1N4148"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4148"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "100V 0.15A standard switching diode, DO-35"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?35*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N4148_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N4148_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "MCU_Module:RaspberryPi_Pico"
 			(pin_names
 				(offset 0.762)
@@ -1442,253 +1275,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 73.66 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0765a098-6628-498b-8ff2-e6c453fbe811")
-	)
-	(junction
-		(at 232.41 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ad75f3a-1d78-4dd7-9544-4ef5a1968686")
-	)
-	(junction
-		(at 80.01 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1a0927bc-90e2-45a2-9f82-ed4ae3a1943b")
-	)
-	(junction
-		(at 257.81 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "29225584-368d-4545-9364-0c36844e1835")
-	)
-	(junction
-		(at 80.01 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "31c15a35-7e8b-4b32-a3eb-adfb74c33a91")
-	)
-	(junction
-		(at 207.01 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33761369-9db6-41d4-abf4-69bd2b0ed5ad")
-	)
-	(junction
-		(at 283.21 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37d110c3-2a70-4c38-94f4-ea4235c7111c")
-	)
-	(junction
-		(at 54.61 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3995257b-1247-4d29-b03d-b8a435644caa")
-	)
-	(junction
-		(at 181.61 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "460a7079-a06c-4b2b-8031-ef34ac3fbca2")
-	)
-	(junction
-		(at 175.26 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "48afb523-1619-44c6-b263-d24dccffcd05")
-	)
-	(junction
-		(at 175.26 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b63fcba-3f42-48f7-8574-b437457caf6e")
-	)
-	(junction
-		(at 156.21 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b7ac34e-9572-476c-afc5-9bc85b983478")
-	)
-	(junction
-		(at 200.66 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "515b8028-212f-4537-bc66-555b4b51460c")
-	)
-	(junction
-		(at 156.21 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5874387a-f1df-484e-b994-8d96ce258bbe")
-	)
-	(junction
-		(at 130.81 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b119666-b987-4be8-ac3e-5c7a50452b65")
-	)
-	(junction
-		(at 207.01 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d53f478-6c05-46ff-8397-94f3f8924404")
-	)
-	(junction
-		(at 181.61 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67e83cbf-42c5-42a7-87d5-068c9e80cc23")
-	)
-	(junction
-		(at 105.41 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9120563f-540e-4a65-97d5-48ec85e3393c")
-	)
-	(junction
-		(at 200.66 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9307cff6-e5a0-43bc-a9a3-f8d46f4d56b7")
-	)
-	(junction
-		(at 226.06 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "93f0bf6e-2303-4c63-8902-ad9db078d888")
-	)
-	(junction
-		(at 99.06 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "958d0bd4-e04c-4f17-88b9-9a67b4c99ff2")
-	)
-	(junction
-		(at 54.61 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a34cff6d-6bf7-4cb7-bd0e-d22a7a6875d2")
-	)
-	(junction
-		(at 105.41 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a35a3911-40c4-4181-aaf3-c6fcb30f3d76")
-	)
-	(junction
-		(at 156.21 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6523a42-ed50-4beb-acff-8f1e285d0577")
-	)
-	(junction
-		(at 124.46 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf4f3a11-7f5a-4d45-8656-d2152bf6be27")
-	)
-	(junction
-		(at 149.86 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d167f3ff-76a0-4586-8fae-4bf5253816a3")
-	)
-	(junction
-		(at 105.41 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d3b2b94f-cf7c-4ffc-848a-e437927a2b46")
-	)
-	(junction
-		(at 149.86 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e67f2eb6-4af8-41b7-beb6-508a865c89da")
-	)
-	(junction
-		(at 73.66 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e874a214-7095-4951-af0a-2c522eebd89c")
-	)
-	(junction
-		(at 124.46 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef499c87-7022-424a-a312-3f54069f31e3")
-	)
-	(junction
-		(at 80.01 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f70395ab-f28f-4aa5-8f77-db61e20e2d51")
-	)
-	(junction
-		(at 130.81 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7088b96-d471-4f17-953e-6086797e7b5e")
-	)
-	(junction
-		(at 130.81 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f77f1e2d-ee3f-44cf-82a1-b185fce476b1")
-	)
-	(junction
-		(at 99.06 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f78ff496-3052-4ea4-93c9-bd1203b0706e")
-	)
-	(junction
-		(at 54.61 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f9026efa-0c4a-481a-b146-4afb0c6700fa")
-	)
-	(junction
-		(at 251.46 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f9fd501b-285c-4d6e-8dd6-45f4ca22ca41")
-	)
-	(no_connect
-		(at 222.25 78.74)
-		(uuid "0cb834f0-19ad-49de-8271-fce0c1286360")
-	)
-	(no_connect
-		(at 267.97 53.34)
-		(uuid "1e53edd7-5aa4-4dec-84c4-0a8adfb26452")
-	)
 	(no_connect
 		(at 267.97 66.04)
 		(uuid "208a2803-314b-4011-9eb5-6586d35cc227")
-	)
-	(no_connect
-		(at 267.97 45.72)
-		(uuid "2d50d122-fe2e-4753-a981-e3e08a92c6c2")
-	)
-	(no_connect
-		(at 267.97 48.26)
-		(uuid "306c0425-2adb-4987-a744-1ea9bcb55f89")
-	)
-	(no_connect
-		(at 267.97 55.88)
-		(uuid "3540e2fa-6e3b-4e65-875d-0e3b2007e274")
-	)
-	(no_connect
-		(at 267.97 50.8)
-		(uuid "4a8e67f2-cb36-491d-9de9-8fa9e9cf061d")
-	)
-	(no_connect
-		(at 267.97 76.2)
-		(uuid "5412cfb5-5e24-45bd-8cf3-a9498bf7b7d6")
 	)
 	(no_connect
 		(at 240.03 20.32)
@@ -1703,1058 +1292,38 @@
 		(uuid "87df1358-06a2-48fd-a71b-fe542e46316d")
 	)
 	(no_connect
-		(at 267.97 73.66)
-		(uuid "89137d36-0a13-466f-82a9-4ee38038e365")
-	)
-	(no_connect
 		(at 222.25 38.1)
 		(uuid "8ee50ed2-1080-4ca7-94a5-c225023120dd")
-	)
-	(no_connect
-		(at 250.19 20.32)
-		(uuid "8fef4763-50ea-456c-8175-6c282fd2f533")
-	)
-	(no_connect
-		(at 267.97 60.96)
-		(uuid "b435ba04-d03a-4e1e-b504-2b9be6bb5022")
 	)
 	(no_connect
 		(at 222.25 35.56)
 		(uuid "bfc2f859-5e75-4515-8b37-3f26380a3dc3")
 	)
 	(no_connect
-		(at 267.97 58.42)
-		(uuid "c98db5f8-36df-4c93-8304-a582452553f2")
-	)
-	(no_connect
-		(at 222.25 81.28)
-		(uuid "cc641e4b-f8f5-4527-807a-2d010ee08e9f")
-	)
-	(no_connect
 		(at 267.97 81.28)
 		(uuid "fafaf695-9b82-4f9a-bdbf-17a1e0b02aa2")
 	)
-	(wire
-		(pts
-			(xy 63.5 144.78) (xy 62.23 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "000df5bb-569a-4941-8444-995f414cb959")
-	)
-	(wire
-		(pts
-			(xy 63.5 119.38) (xy 62.23 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00e547eb-7b16-4c99-bbbf-7a8f73658d2b")
-	)
-	(wire
-		(pts
-			(xy 80.01 119.38) (xy 80.01 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0234e50e-d827-4470-8582-a1d83d42a71e")
-	)
-	(wire
-		(pts
-			(xy 80.01 137.16) (xy 105.41 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03320246-c555-4ba8-81ac-128b086f9242")
-	)
-	(wire
-		(pts
-			(xy 124.46 119.38) (xy 124.46 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05eca36f-299a-4ff0-b879-fd0a567459ff")
-	)
-	(wire
-		(pts
-			(xy 283.21 119.38) (xy 283.21 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06e64ba6-8cc9-4488-bbfc-0500e6274215")
-	)
-	(wire
-		(pts
-			(xy 139.7 132.08) (xy 138.43 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c94b248-ef5b-4285-81cf-2a61a79958ff")
-	)
-	(wire
-		(pts
-			(xy 46.99 124.46) (xy 54.61 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cb75150-e216-47b2-bdd9-d2b0e6dc47c7")
-	)
-	(wire
-		(pts
-			(xy 165.1 144.78) (xy 163.83 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10b1764f-6399-4396-a137-864714e98890")
-	)
-	(wire
-		(pts
-			(xy 130.81 149.86) (xy 156.21 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11d2aeb8-51c6-494a-b6c4-5eadac73404c")
-	)
-	(wire
-		(pts
-			(xy 181.61 124.46) (xy 207.01 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "134b9a40-9337-42e6-9c6b-ae57d4067259")
-	)
-	(wire
-		(pts
-			(xy 99.06 106.68) (xy 99.06 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1470c54e-836d-4129-bf80-22167fff62fc")
-	)
-	(wire
-		(pts
-			(xy 149.86 132.08) (xy 149.86 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15be72f0-a2e2-4880-94a2-0300c153bdb4")
-	)
-	(wire
-		(pts
-			(xy 317.5 119.38) (xy 316.23 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17e3b2f0-6e1f-43d5-89ee-e00048562363")
-	)
-	(wire
-		(pts
-			(xy 241.3 132.08) (xy 240.03 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18d03ca7-c906-4262-ae2b-8a34c77ca74a")
-	)
-	(wire
-		(pts
-			(xy 302.26 106.68) (xy 302.26 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a43d91d-f1e4-4c18-bb7a-40e1e9c4ec3f")
-	)
-	(wire
-		(pts
-			(xy 207.01 137.16) (xy 232.41 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b0ddc73-b81d-4cbf-9583-b77662fff98c")
-	)
-	(wire
-		(pts
-			(xy 105.41 149.86) (xy 130.81 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c7584d4-5508-4ea8-97d2-43529bdc8c7f")
-	)
-	(wire
-		(pts
-			(xy 200.66 119.38) (xy 200.66 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22758010-864e-4227-877e-1d1c88e32d34")
-	)
-	(wire
-		(pts
-			(xy 54.61 124.46) (xy 80.01 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2335de6a-ea97-4842-8706-5716c449b500")
-	)
-	(wire
-		(pts
-			(xy 105.41 119.38) (xy 105.41 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "236e7010-bd09-4cd4-834e-fca88ecf501f")
-	)
-	(wire
-		(pts
-			(xy 190.5 132.08) (xy 189.23 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23d506b5-5563-4e2b-a57a-a4dcfedd8011")
-	)
-	(wire
-		(pts
-			(xy 266.7 119.38) (xy 265.43 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2401a246-f27e-45b5-b264-65b6adb03f22")
-	)
-	(wire
-		(pts
-			(xy 105.41 137.16) (xy 130.81 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26b9ed88-5a0e-4a0f-8171-c9e90647da25")
-	)
-	(wire
-		(pts
-			(xy 156.21 137.16) (xy 181.61 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26be15e8-e911-4069-ac60-bfa81d64cd58")
-	)
-	(wire
-		(pts
-			(xy 200.66 132.08) (xy 200.66 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2728155d-a7f0-43eb-9b9b-42f009d825c3")
-	)
-	(wire
-		(pts
-			(xy 175.26 132.08) (xy 175.26 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28ee7964-280a-4206-ab41-9dc4dbb32e64")
-	)
-	(wire
-		(pts
-			(xy 190.5 119.38) (xy 189.23 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e437298-2326-45dc-80bf-5d5ca1843cc6")
-	)
-	(wire
-		(pts
-			(xy 207.01 124.46) (xy 232.41 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fa4f888-a550-452f-9e09-f516e5c8e8c2")
-	)
-	(wire
-		(pts
-			(xy 130.81 124.46) (xy 156.21 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "329ec1c8-4aa4-4f84-9c8b-5a7fd690a53c")
-	)
-	(wire
-		(pts
-			(xy 130.81 132.08) (xy 130.81 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32d0d710-10bf-434c-91fb-21600aba0aeb")
-	)
-	(wire
-		(pts
-			(xy 105.41 124.46) (xy 130.81 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35394a1e-0cef-4901-80b7-9fe995b98a53")
-	)
-	(wire
-		(pts
-			(xy 251.46 106.68) (xy 251.46 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e15793d-7792-4b08-bed0-23b91e9141e3")
-	)
-	(wire
-		(pts
-			(xy 124.46 106.68) (xy 124.46 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4239a620-4f11-4398-bba5-a552f35ba739")
-	)
-	(wire
-		(pts
-			(xy 46.99 137.16) (xy 54.61 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42c3f76a-a3dd-4b4a-a8da-6b63aba1e9d1")
-	)
-	(wire
-		(pts
-			(xy 308.61 119.38) (xy 308.61 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43732c04-2d52-4140-b892-be39d0c845da")
-	)
-	(wire
-		(pts
-			(xy 241.3 119.38) (xy 240.03 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44f0f819-a20d-483f-aa01-1c162c28fa95")
-	)
-	(wire
-		(pts
-			(xy 181.61 144.78) (xy 181.61 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ed4d2f0-0f4b-46f0-a758-38455589f50d")
-	)
-	(wire
-		(pts
-			(xy 130.81 137.16) (xy 156.21 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5207eeb8-eb3e-4150-ba7f-df18ab72828d")
-	)
-	(wire
-		(pts
-			(xy 175.26 119.38) (xy 175.26 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5408b344-cdb4-485c-adc4-ecf177036189")
-	)
-	(wire
-		(pts
-			(xy 156.21 149.86) (xy 181.61 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59810114-0a23-4299-ac1a-244de4bbd051")
-	)
-	(wire
-		(pts
-			(xy 251.46 119.38) (xy 251.46 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a3efc77-7989-40bc-b770-9212bbb8ffd5")
-	)
-	(wire
-		(pts
-			(xy 88.9 144.78) (xy 87.63 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d02db5f-f9d7-4013-8182-0c3243403650")
-	)
-	(wire
-		(pts
-			(xy 114.3 144.78) (xy 113.03 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "621c33c9-3604-467b-9282-22b9a0947d45")
-	)
-	(wire
-		(pts
-			(xy 181.61 132.08) (xy 181.61 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "676133fa-f83b-4f7c-8b8e-efbd01579a9c")
-	)
-	(wire
-		(pts
-			(xy 215.9 119.38) (xy 214.63 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b7d6aec-57e2-418e-bf1a-9f296ac226ef")
-	)
-	(wire
-		(pts
-			(xy 156.21 124.46) (xy 181.61 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bfe3339-b2c5-40b6-9d50-e48de791ff4c")
-	)
-	(wire
-		(pts
-			(xy 207.01 132.08) (xy 207.01 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e9cea5f-befc-4d55-816f-c8864af788d1")
-	)
-	(wire
-		(pts
-			(xy 54.61 119.38) (xy 54.61 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "777458fd-3455-4baa-a496-aa6006190c38")
-	)
-	(wire
-		(pts
-			(xy 80.01 149.86) (xy 105.41 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a82fdbe-60b0-4415-b49a-75009fc450b1")
-	)
-	(wire
-		(pts
-			(xy 124.46 132.08) (xy 124.46 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c75fa30-acdb-40e0-befa-8464e2d8fb7f")
-	)
-	(wire
-		(pts
-			(xy 156.21 119.38) (xy 156.21 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c928f5b-fdc2-4bbd-8370-5b8014927a75")
-	)
-	(wire
-		(pts
-			(xy 200.66 106.68) (xy 200.66 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ff9eba0-a846-4678-b518-597861aa6d56")
-	)
-	(wire
-		(pts
-			(xy 73.66 132.08) (xy 73.66 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83c14841-28e5-4096-8247-baeba187db23")
-	)
-	(wire
-		(pts
-			(xy 149.86 106.68) (xy 149.86 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84688bf3-741b-4eb3-9390-337daceaa6d2")
-	)
-	(wire
-		(pts
-			(xy 327.66 106.68) (xy 327.66 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "855a45ca-abb4-4b77-8db5-a85eaf711a1a")
-	)
-	(wire
-		(pts
-			(xy 156.21 132.08) (xy 156.21 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87cfab75-8639-493f-8c6a-bf93a346d9c8")
-	)
-	(wire
-		(pts
-			(xy 181.61 137.16) (xy 207.01 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a0b0a6f-b9bb-46ce-94f3-b6179bfc2115")
-	)
-	(wire
-		(pts
-			(xy 165.1 119.38) (xy 163.83 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c9579ae-57bf-4a62-b604-1fd1f66f521b")
-	)
-	(wire
-		(pts
-			(xy 54.61 144.78) (xy 54.61 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8dac7cf1-ddce-42cd-8dc9-985aa95be604")
-	)
-	(wire
-		(pts
-			(xy 232.41 119.38) (xy 232.41 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e5316f2-0ba6-4328-bd55-d5420912ae39")
-	)
-	(wire
-		(pts
-			(xy 114.3 119.38) (xy 113.03 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fa3ee6c-f587-4edf-995b-4d7bb265f4ac")
-	)
-	(wire
-		(pts
-			(xy 99.06 119.38) (xy 99.06 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "901dd4e3-a6ba-4f55-bbed-773a6511e7cc")
-	)
-	(wire
-		(pts
-			(xy 88.9 119.38) (xy 87.63 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92f98b01-bed1-41cf-b4b9-7dfae334059a")
-	)
-	(wire
-		(pts
-			(xy 156.21 144.78) (xy 156.21 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97655a9a-e05f-45fb-bef6-2322db47eb31")
-	)
-	(wire
-		(pts
-			(xy 215.9 132.08) (xy 214.63 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ac6754c-5b2b-4e3e-b64c-7fa686c3bcda")
-	)
-	(wire
-		(pts
-			(xy 165.1 132.08) (xy 163.83 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c24bf53-8ff4-4ec1-9bc8-6022d36262dc")
-	)
-	(wire
-		(pts
-			(xy 181.61 119.38) (xy 181.61 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cae2678-8e4e-4179-a05e-e4bc3c565a20")
-	)
-	(wire
-		(pts
-			(xy 80.01 124.46) (xy 105.41 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d90f7f5-2210-45b4-afc0-7eaae76d5163")
-	)
-	(wire
-		(pts
-			(xy 130.81 144.78) (xy 130.81 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ee28803-5ef2-47cd-9ab5-f343384bab27")
-	)
-	(wire
-		(pts
-			(xy 226.06 119.38) (xy 226.06 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9eeb5770-f159-46c8-abd8-d41c1a67ec4d")
-	)
-	(wire
-		(pts
-			(xy 114.3 132.08) (xy 113.03 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b431d761-29b0-4e6d-8f22-18a3bcfbd90d")
-	)
-	(wire
-		(pts
-			(xy 257.81 119.38) (xy 257.81 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6f0f8eb-3d50-41bf-860d-ede5d25c7f97")
-	)
-	(wire
-		(pts
-			(xy 283.21 124.46) (xy 308.61 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b73d4294-f77f-4ceb-941d-8c0ecee86955")
-	)
-	(wire
-		(pts
-			(xy 105.41 132.08) (xy 105.41 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b80b7eb1-26bb-4a61-b513-a118d9145964")
-	)
-	(wire
-		(pts
-			(xy 232.41 124.46) (xy 257.81 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b92fd710-4f5e-4292-bf41-3c885136613c")
-	)
-	(wire
-		(pts
-			(xy 54.61 149.86) (xy 80.01 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bad081ef-2e4f-4389-8e1d-4fe7ae427073")
-	)
-	(wire
-		(pts
-			(xy 105.41 144.78) (xy 105.41 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb633d73-bccc-4d4b-939d-d6c673a1829a")
-	)
-	(wire
-		(pts
-			(xy 276.86 106.68) (xy 276.86 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be282b27-3f2f-4b60-a543-10a06c0aa105")
-	)
-	(wire
-		(pts
-			(xy 54.61 132.08) (xy 54.61 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8624df8-b841-47a4-ba12-7f10ab8aa2aa")
-	)
-	(wire
-		(pts
-			(xy 139.7 144.78) (xy 138.43 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ceba7b46-b82c-42aa-91c2-b954147b5456")
-	)
-	(wire
-		(pts
-			(xy 207.01 119.38) (xy 207.01 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0aebfe7-fa37-42f3-872b-f7ac221218b9")
-	)
-	(wire
-		(pts
-			(xy 257.81 124.46) (xy 283.21 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d18a9bb1-bc8f-4acf-a9a5-a552556346b3")
-	)
-	(wire
-		(pts
-			(xy 99.06 132.08) (xy 99.06 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d34f4cde-7234-48fb-80f6-42b7f4fd6b63")
-	)
-	(wire
-		(pts
-			(xy 226.06 106.68) (xy 226.06 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d599e8b8-08f5-4c84-bf9d-4c6b98a4469c")
-	)
-	(wire
-		(pts
-			(xy 73.66 106.68) (xy 73.66 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9501c65-ad2f-4bed-950c-4ea4feb271c8")
-	)
-	(wire
-		(pts
-			(xy 80.01 144.78) (xy 80.01 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbb4d5aa-ce69-4da9-b3ec-dcd711903d74")
-	)
-	(wire
-		(pts
-			(xy 63.5 132.08) (xy 62.23 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0c75957-83a3-4472-a7a6-52bdce04874d")
-	)
-	(wire
-		(pts
-			(xy 232.41 132.08) (xy 232.41 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e44052c6-7ba4-4e59-be17-bf1a43c92aac")
-	)
-	(wire
-		(pts
-			(xy 54.61 137.16) (xy 80.01 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e53fc470-eb1a-485e-a23c-3ae7d7b946c0")
-	)
-	(wire
-		(pts
-			(xy 130.81 119.38) (xy 130.81 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea897370-ffc7-44a9-a102-724afe5df26b")
-	)
-	(wire
-		(pts
-			(xy 139.7 119.38) (xy 138.43 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecffce9e-1140-4034-b0b1-b889d9a3f705")
-	)
-	(wire
-		(pts
-			(xy 292.1 119.38) (xy 290.83 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f00aac76-07cc-44b9-a656-be348e58c2d9")
-	)
-	(wire
-		(pts
-			(xy 73.66 119.38) (xy 73.66 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f140c882-7b27-41f0-a2fb-c38e13f1e093")
-	)
-	(wire
-		(pts
-			(xy 149.86 119.38) (xy 149.86 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f37338d5-c68b-4b07-a427-af85c01a80cd")
-	)
-	(wire
-		(pts
-			(xy 80.01 132.08) (xy 80.01 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3efb139-2e42-4634-93c6-d1e81532a525")
-	)
-	(wire
-		(pts
-			(xy 190.5 144.78) (xy 189.23 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f95ada75-a287-42aa-9d49-f0dcf6aaf2e3")
-	)
-	(wire
-		(pts
-			(xy 175.26 106.68) (xy 175.26 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9d23a29-9296-4771-8518-423742f782da")
-	)
-	(wire
-		(pts
-			(xy 88.9 132.08) (xy 87.63 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa4b953c-4f0e-433b-a979-a114252c5815")
-	)
-	(wire
-		(pts
-			(xy 46.99 149.86) (xy 54.61 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa9e35e0-f075-4aa1-a601-b55ab15e8a13")
-	)
-	(label "ROW1"
-		(at 222.25 45.72 180)
+	(label "PWR"
+		(at 182.88 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "03cbe812-624a-448c-910b-3478737419a2")
+		(uuid "0264ab56-be78-4840-83d6-e8fe69f96769")
 	)
-	(label "ROW2"
-		(at 222.25 48.26 180)
+	(label "PWR"
+		(at 250.19 20.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "0cd172d7-3b79-4b20-877e-7d7348123fc5")
+		(uuid "09192dbf-d7fd-422f-bbc0-2a9af6be7e74")
 	)
-	(label "COL9"
+	(label "BTN12"
 		(at 222.25 73.66 180)
 		(effects
 			(font
@@ -2762,19 +1331,29 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "23e9c6fb-2c16-4998-ad62-d1798f86a6a7")
+		(uuid "0b001b91-a35b-4cef-b463-125cc9515dcf")
 	)
-	(label "COL9"
-		(at 302.26 106.68 0)
+	(label "BTN18"
+		(at 375.92 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "25cb7beb-d426-49ad-a901-8643385ca185")
+		(uuid "11af688e-4bde-4ddf-a6ff-2c05025cf51b")
 	)
-	(label "COL2"
+	(label "BTN22"
+		(at 261.62 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "17998332-2fcd-4b6f-a75e-64ee0d1ed78b")
+	)
+	(label "BTN5"
 		(at 222.25 55.88 180)
 		(effects
 			(font
@@ -2782,79 +1361,19 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "290fda56-6a1f-44bc-910f-8525f8650a73")
+		(uuid "1858a4d7-df53-4652-a463-847571421d7e")
 	)
-	(label "COL10"
-		(at 327.66 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "397e8eb9-25d0-4c58-b919-b55f66fcdac5")
-	)
-	(label "COL5"
-		(at 200.66 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4aa1b2b2-0158-4b1d-a759-e14607320b4c")
-	)
-	(label "COL6"
-		(at 222.25 66.04 180)
+	(label "PWR"
+		(at 342.9 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "4e54edda-bddc-4844-99ff-3050ab6a484f")
+		(uuid "18b49d55-e9b9-4549-b2f0-1e7f4532de5c")
 	)
-	(label "COL0"
-		(at 222.25 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "55e2dff8-4a80-4c31-b03c-e4641dd1e274")
-	)
-	(label "COL6"
-		(at 226.06 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5702c0e9-ae09-4d69-8a8d-3d1754df7742")
-	)
-	(label "COL2"
-		(at 124.46 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "57da215e-08e9-4502-a862-8c8b5063ac1a")
-	)
-	(label "COL1"
-		(at 99.06 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "632d9509-26b7-4c27-b1a6-821093190587")
-	)
-	(label "COL7"
+	(label "BTN10"
 		(at 222.25 68.58 180)
 		(effects
 			(font
@@ -2862,29 +1381,109 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "7ea721ed-57a7-4aa5-aa79-4343b8774e27")
+		(uuid "194efe6d-3122-4fd1-a78d-d16dbcd2addb")
 	)
-	(label "COL0"
-		(at 73.66 106.68 0)
+	(label "BTN11"
+		(at 147.32 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "84615161-6a8d-458d-828c-b4369494dfd4")
+		(uuid "19e7c68c-eb09-4f13-bf58-5a6c10b8aa5f")
 	)
-	(label "ROW1"
-		(at 46.99 137.16 180)
+	(label "PWR"
+		(at 297.18 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "88889beb-6a38-4108-822d-5de161cb1ec5")
+		(uuid "1d55469e-c79b-4f55-95a6-cd5e83d775fb")
 	)
-	(label "COL3"
+	(label "BTN20"
+		(at 193.04 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e9fa06b-ab14-4478-9d3b-b7d5c0a63e6a")
+	)
+	(label "PWR"
+		(at 137.16 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1f7f3814-ca80-4e38-9eba-571628873866")
+	)
+	(label "BTN1"
+		(at 222.25 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "26b51042-64d1-46d7-a953-e23874032388")
+	)
+	(label "PWR"
+		(at 274.32 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "28bd8296-ab9f-4d04-991c-418c113ecbaa")
+	)
+	(label "BTN19"
+		(at 267.97 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28dc08e6-4fa3-4b56-88f9-46d6d9afcb3c")
+	)
+	(label "PWR"
+		(at 160.02 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2935fb86-7e04-4c6f-9080-9a602137e552")
+	)
+	(label "BTN15"
+		(at 307.34 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "29373999-3f23-45c0-b362-37628b41e4f6")
+	)
+	(label "PWR"
+		(at 365.76 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2b579ffb-45c4-43c3-ab2a-a5a7c5ba2d35")
+	)
+	(label "BTN6"
 		(at 222.25 58.42 180)
 		(effects
 			(font
@@ -2892,39 +1491,59 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "8c800a30-4f80-4caf-a046-72c500648c79")
+		(uuid "30c86188-8d5f-4b7b-9c43-345562db230d")
 	)
-	(label "COL1"
-		(at 222.25 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8ee8d814-254a-4ddc-8f2a-d45d046fcdd2")
-	)
-	(label "COL3"
-		(at 149.86 106.68 0)
+	(label "BTN9"
+		(at 353.06 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "975fdbab-3457-4329-8f40-209c6be790e9")
+		(uuid "364d8ab6-515f-4c10-bd5e-a01610c73ab5")
 	)
-	(label "COL5"
-		(at 222.25 63.5 180)
+	(label "BTN2"
+		(at 170.18 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3937fbf9-8c91-4639-b5f4-bb0b69378816")
+	)
+	(label "PWR"
+		(at 274.32 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "a2351cc0-39a0-4aa5-8efb-963179a7c495")
+		(uuid "395ef988-6ba7-47d1-bf2b-238f4899a326")
 	)
-	(label "COL10"
+	(label "BTN13"
+		(at 193.04 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3afe3ad3-a8cf-4857-8063-2e1b0ced2ae5")
+	)
+	(label "BTN16"
+		(at 330.2 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "429d052c-4e2e-4d0b-9d02-36e7b6dbb729")
+	)
+	(label "BTN13"
 		(at 222.25 76.2 180)
 		(effects
 			(font
@@ -2932,79 +1551,319 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "b21238e4-55d7-452e-8d33-83555dc8770d")
+		(uuid "4f533a3e-f1d5-4064-82bc-fdedac902bb2")
 	)
-	(label "COL7"
-		(at 251.46 106.68 0)
+	(label "BTN7"
+		(at 307.34 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "b44430ee-469d-4a67-8641-beb47b62f983")
+		(uuid "53b41365-7388-49b4-b27d-526c83a5cccd")
 	)
-	(label "COL8"
-		(at 222.25 71.12 180)
+	(label "BTN8"
+		(at 222.25 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "ca9b18f1-116e-49dd-aa54-272ca8ac0269")
+		(uuid "5534792a-f35e-4205-bb91-515a64614274")
 	)
-	(label "ROW2"
-		(at 46.99 149.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d7aa14c5-c5e2-44f5-bea4-fd4a854584a4")
-	)
-	(label "COL4"
-		(at 222.25 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "de975524-20a7-4893-83fa-0d58754abac5")
-	)
-	(label "COL8"
-		(at 276.86 106.68 0)
+	(label "BTN20"
+		(at 267.97 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "ef3af6f6-1d2a-4564-a82b-19f7706dcddb")
+		(uuid "5abd28d4-7427-4774-a6c1-11feb0f560f9")
 	)
-	(label "COL4"
-		(at 175.26 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f63023e0-f4e5-497d-98a6-75d3e8ffd954")
-	)
-	(label "ROW0"
-		(at 46.99 124.46 180)
+	(label "PWR"
+		(at 274.32 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "facbe665-8bcb-41f2-9276-b7c21da79b1e")
+		(uuid "5ad1637e-655a-4b78-98f5-f2b5ce6e6843")
 	)
-	(label "ROW0"
+	(label "PWR"
+		(at 205.74 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "617660d5-cf3a-4aeb-bc10-5c2f51de9f6a")
+	)
+	(label "BTN14"
+		(at 222.25 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "61f626bb-f97f-4a5c-8a41-09a880c57969")
+	)
+	(label "PWR"
+		(at 320.04 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "67201c85-a822-4024-876e-44506b8ebf7d")
+	)
+	(label "BTN3"
+		(at 222.25 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6770228d-6564-48e2-a571-1685d1031d48")
+	)
+	(label "PWR"
+		(at 320.04 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "67a07099-834b-4c89-af68-77f6c21fa33a")
+	)
+	(label "BTN24"
+		(at 267.97 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6933719b-49ba-4e7b-9cef-2d2577d7fd93")
+	)
+	(label "BTN2"
+		(at 222.25 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6fbd2127-8c44-457d-a14a-512405bb954c")
+	)
+	(label "PWR"
+		(at 182.88 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7375bd96-691e-4b86-a75b-595ea3a0be2e")
+	)
+	(label "PWR"
+		(at 251.46 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "746a6918-40c3-405e-880e-dee04b5dd181")
+	)
+	(label "BTN18"
+		(at 267.97 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7bd6c95d-da98-4c4a-8d85-ea3e933c6861")
+	)
+	(label "BTN23"
+		(at 284.48 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8609c900-9ec9-4bcd-a0d2-17610887f491")
+	)
+	(label "BTN8"
+		(at 330.2 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a2c2187-14b7-4bcf-b7ae-6790c5c588df")
+	)
+	(label "PWR"
+		(at 182.88 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8a6c4d85-f377-4ae5-86a2-3f26d03fcd6b")
+	)
+	(label "BTN0"
+		(at 124.46 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b1af6e5-003d-4c3f-ab74-c08adfeaaa70")
+	)
+	(label "BTN4"
+		(at 222.25 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9254fbe4-22b0-4ab6-9e84-57a83f68abe4")
+	)
+	(label "PWR"
+		(at 251.46 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "94cd0897-1c84-48a3-9e2e-db691409162a")
+	)
+	(label "BTN19"
+		(at 170.18 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0602c86-342b-476b-9d71-55f675d38970")
+	)
+	(label "BTN21"
+		(at 267.97 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2afa451-3af3-4ca5-a6b9-ef9cb9aee7da")
+	)
+	(label "BTN14"
+		(at 284.48 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a30cbe2d-8f97-48f2-bb9b-1d4cf81d3e59")
+	)
+	(label "BTN1"
+		(at 147.32 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6e88ffe-c298-459d-8855-c0c161414f8c")
+	)
+	(label "PWR"
+		(at 342.9 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a91df99a-60a5-47a9-a4aa-b87d23e00547")
+	)
+	(label "PWR"
+		(at 205.74 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ad122cf9-80f8-4e58-a608-bb1c51e5cfa2")
+	)
+	(label "PWR"
+		(at 114.3 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ae7a971a-e6ff-4666-9f02-9b1b9958273b")
+	)
+	(label "BTN22"
+		(at 267.97 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aebf5471-726f-4ba4-9c9c-b617dd76af3d")
+	)
+	(label "BTN16"
+		(at 267.97 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "affda93e-37d6-4a5c-aff3-7d4ddf78b9fc")
+	)
+	(label "BTN4"
+		(at 215.9 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b486bb5a-4299-4266-8285-92c699882ab0")
+	)
+	(label "PWR"
+		(at 160.02 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b851036c-fed7-4d01-a094-0f33bf71ec57")
+	)
+	(label "BTN0"
 		(at 222.25 43.18 180)
 		(effects
 			(font
@@ -3012,750 +1871,210 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "fb96246c-5295-4d45-9931-afe252555692")
+		(uuid "b93895bd-4508-4d8e-9f0d-4ae79a5c2e00")
 	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 185.42 119.38 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "017c8644-a235-4c8b-8cf2-0442677782da")
-		(property "Reference" "D16"
-			(at 185.42 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	(label "BTN15"
+		(at 222.25 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right bottom)
 		)
-		(property "Value" "1N4148"
-			(at 185.42 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 185.42 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 185.42 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 185.42 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 185.42 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 185.42 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fc39a9c8-9d4a-4e4a-81ab-589675cd4754")
-		)
-		(pin "2"
-			(uuid "cde57241-5073-4757-9dcf-d2f224bd7a28")
-		)
-		(instances
-			(project "steno-keyboard"
-				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "D16")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "bb3a76f0-4f69-4fb5-93dc-92a60ed7cd03")
 	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 144.78 132.08 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0304ab42-e106-4978-a786-6179d747a42c")
-		(property "Reference" "SW11"
-			(at 144.78 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	(label "BTN12"
+		(at 170.18 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(property "Value" "SW_Push"
-			(at 144.78 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
-			(at 144.78 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 144.78 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3265f6f5-34fa-4e26-925e-80c514d1e2eb")
-		)
-		(pin "1"
-			(uuid "570223c0-8ad2-4644-b2a6-ca3993e33629")
-		)
-		(instances
-			(project "steno-keyboard"
-				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "SW11")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "c57a00a7-86d0-4488-91e8-63ba0ccc5dd8")
 	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 160.02 144.78 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08bdaccb-f47e-4bc2-ae07-015cb476b9a6")
-		(property "Reference" "D15"
-			(at 160.02 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	(label "PWR"
+		(at 137.16 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right bottom)
 		)
-		(property "Value" "1N4148"
-			(at 160.02 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+		(uuid "c72238d8-9d64-4e9a-9ae3-d2696a6b1dae")
+	)
+	(label "BTN6"
+		(at 284.48 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 160.02 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(uuid "c74e9171-72a6-454a-b03b-7b0491050f91")
+	)
+	(label "BTN23"
+		(at 267.97 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 160.02 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(uuid "cbeb7c56-9a01-4834-ae62-113390fb6241")
+	)
+	(label "BTN10"
+		(at 375.92 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 160.02 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(uuid "cf89a902-9a8b-4a08-b886-f7ea4292b7a9")
+	)
+	(label "BTN7"
+		(at 222.25 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right bottom)
 		)
-		(property "Sim.Device" "D"
-			(at 160.02 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(uuid "d2165638-c71f-4484-b7f9-aea18ea89cd9")
+	)
+	(label "PWR"
+		(at 365.76 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right bottom)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 160.02 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(uuid "d460e26b-99a0-4d97-aacd-e2886e70707e")
+	)
+	(label "BTN21"
+		(at 215.9 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(pin "1"
-			(uuid "e26d5e2b-a959-49ee-ac01-fd58f715e071")
-		)
-		(pin "2"
-			(uuid "59db4954-9625-4f51-8da6-e12a161c6601")
-		)
-		(instances
-			(project "steno-keyboard"
-				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "D15")
-					(unit 1)
-				)
+		(uuid "d70f174a-a089-4406-b55d-a4458e855257")
+	)
+	(label "BTN17"
+		(at 353.06 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
+		(uuid "d7448689-577d-4f21-af15-3859f55b4a68")
+	)
+	(label "BTN11"
+		(at 222.25 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "da84f0a0-f6fd-433d-a029-e235c1469848")
+	)
+	(label "BTN9"
+		(at 222.25 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "de371c55-dbc9-471a-9ecb-560e44af3a3f")
+	)
+	(label "BTN5"
+		(at 261.62 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e263ed7f-da91-4f91-a6ec-fd4271302240")
+	)
+	(label "PWR"
+		(at 297.18 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e8a08410-5ed8-4b7c-8f84-331e70d87dff")
+	)
+	(label "BTN3"
+		(at 193.04 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec24d0c8-b027-4ea4-b188-30b0a1052ce6")
+	)
+	(label "BTN17"
+		(at 267.97 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee12bee6-2dba-4740-8c54-d1733bc968ed")
+	)
+	(label "PWR"
+		(at 160.02 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ef20eb0d-70c7-42d7-bdb2-93eb71e2100c")
+	)
+	(label "BTN24"
+		(at 307.34 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7a4f865-3c2c-446b-8371-d498e8efd40d")
+	)
+	(label "PWR"
+		(at 297.18 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fea6e4b3-533f-474b-9d03-9f357f511088")
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 195.58 119.38 0)
-		(mirror y)
+		(at 370.84 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1b3ad335-888d-444d-8fbe-28b4a48ee09d")
-		(property "Reference" "SW16"
-			(at 195.58 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 195.58 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
-			(at 195.58 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 195.58 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c42ec4e8-144c-4c56-ad2d-577908e4f6a2")
-		)
-		(pin "1"
-			(uuid "1340d60a-d709-4711-84a2-ba0a18de2c5f")
-		)
-		(instances
-			(project "steno-keyboard"
-				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "SW16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 109.22 132.08 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c8e0beb-c72f-4cc7-a04d-686dd617029b")
-		(property "Reference" "D8"
-			(at 109.22 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 109.22 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 109.22 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 109.22 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 109.22 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 109.22 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 109.22 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "347a8bf9-e08f-47d9-8936-335552adc6e4")
-		)
-		(pin "2"
-			(uuid "75831ed6-52db-405e-a87e-7ab2542eec33")
-		)
-		(instances
-			(project "steno-keyboard"
-				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 236.22 132.08 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2261e63f-c571-4ee7-aec6-b263fb521ff5")
-		(property "Reference" "D22"
-			(at 236.22 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 236.22 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 236.22 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 236.22 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 236.22 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 236.22 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 236.22 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9e4ffa5b-2837-407e-86ec-1d5df8da55b9")
-		)
-		(pin "2"
-			(uuid "7c5e4910-6113-4fff-a62f-5951dbab21f5")
-		)
-		(instances
-			(project "steno-keyboard"
-				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "D22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 93.98 132.08 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "232cfd6d-8e9e-4974-b4a0-e23f4008fb10")
-		(property "Reference" "SW5"
-			(at 93.98 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 93.98 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
-			(at 93.98 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 93.98 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e9e8c5a0-9c17-44b9-94c6-06b217b15e88")
-		)
-		(pin "1"
-			(uuid "9e87fb83-7de1-4d09-b996-ae69389b119b")
-		)
-		(instances
-			(project "steno-keyboard"
-				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "SW5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 58.42 144.78 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31e847f1-dbef-4fae-9a1f-0e372af552de")
-		(property "Reference" "D3"
-			(at 58.42 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 58.42 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 58.42 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 58.42 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 58.42 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 58.42 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 58.42 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "01d0558f-7aab-43df-a2bf-223d2a95606c")
-		)
-		(pin "2"
-			(uuid "53a6899e-188a-473d-9de6-191c3f4745f9")
-		)
-		(instances
-			(project "steno-keyboard"
-				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 58.42 119.38 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "32b1307e-16ea-4965-9913-6243310c864e")
-		(property "Reference" "D1"
-			(at 58.42 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 58.42 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 58.42 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 58.42 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 58.42 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 58.42 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 58.42 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fafbc034-f94e-4116-86c5-5ef8bd6e2f2a")
-		)
-		(pin "2"
-			(uuid "fb7c14f3-6463-467e-828c-2f6c45ab329b")
-		)
-		(instances
-			(project ""
-				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 220.98 119.38 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "35f2771a-682c-4da1-9b92-b0ea1dd9d064")
+		(uuid "104b02c0-183e-44d6-9a1d-87e0d4dd639a")
 		(property "Reference" "SW19"
-			(at 220.98 111.76 0)
+			(at 370.84 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3763,15 +2082,15 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 220.98 114.3 0)
+			(at 370.84 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
-			(at 220.98 114.3 0)
+		(property "Footprint" ""
+			(at 370.84 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3780,7 +2099,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 114.3 0)
+			(at 370.84 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3789,7 +2108,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 220.98 119.38 0)
+			(at 370.84 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3798,10 +2117,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "551562b2-288b-4023-97e1-877d02d59190")
+			(uuid "6ce542a0-254f-4b40-b6fc-7531675f78b3")
 		)
 		(pin "1"
-			(uuid "cccc946e-5ffa-4f8b-82cf-d08ed588b33d")
+			(uuid "23909c02-7ccc-439a-956d-87761a7d7b9b")
 		)
 		(instances
 			(project "steno-keyboard"
@@ -3814,17 +2133,16 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 68.58 119.38 0)
-		(mirror y)
+		(at 256.54 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "37c68be5-affe-401b-ba81-3e1669554706")
-		(property "Reference" "SW1"
-			(at 68.58 111.76 0)
+		(uuid "26e28300-e181-4cec-89c0-91a4800f1ed5")
+		(property "Reference" "SW6"
+			(at 256.54 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3832,15 +2150,15 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 68.58 114.3 0)
+			(at 256.54 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
-			(at 68.58 114.3 0)
+		(property "Footprint" ""
+			(at 256.54 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3849,7 +2167,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 114.3 0)
+			(at 256.54 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3858,7 +2176,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 68.58 119.38 0)
+			(at 256.54 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3867,15 +2185,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "9fc0a9f0-318d-4895-9b52-30f68d349a29")
+			(uuid "daa59b8c-1693-419e-bdfc-47199f5f3bf2")
 		)
 		(pin "1"
-			(uuid "047d78b2-dadb-4aba-ab46-19e83c40a49a")
+			(uuid "b6adf03a-52b0-4fa5-a80e-009b0b0f3dc3")
 		)
 		(instances
-			(project ""
+			(project "steno-keyboard"
 				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "SW1")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -4066,1353 +2384,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
-		(at 210.82 119.38 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "438c30f4-9773-444b-916e-9c4e587a8523")
-		(property "Reference" "D19"
-			(at 210.82 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 210.82 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 210.82 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 210.82 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 210.82 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 210.82 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 210.82 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a6dad2e-5c9c-4df4-84fb-5b365ae993de")
-		)
-		(pin "2"
-			(uuid "55e3a513-be24-477a-8d49-3f75b53ba552")
-		)
-		(instances
-			(project "steno-keyboard"
-				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "D19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 119.38 132.08 0)
-		(mirror y)
+		(at 347.98 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "554e6a94-f0cf-4111-bb93-19dc43b9a005")
-		(property "Reference" "SW8"
-			(at 119.38 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 119.38 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
-			(at 119.38 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 119.38 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bb9c7bb8-49fc-490d-92d8-de925a7273f9")
-		)
-		(pin "1"
-			(uuid "d80ab663-de81-4f35-a0dc-f2667c09f1ff")
-		)
-		(instances
-			(project "steno-keyboard"
-				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "SW8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 220.98 132.08 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56eebb15-f7e3-415e-9b57-ffe122d0b1d4")
-		(property "Reference" "SW20"
-			(at 220.98 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 220.98 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
-			(at 220.98 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 220.98 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 220.98 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d6c45ccc-2108-42b8-9406-9f5c4ced4824")
-		)
-		(pin "1"
-			(uuid "e2303097-ffaf-41d9-8048-7395a49184d2")
-		)
-		(instances
-			(project "steno-keyboard"
-				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "SW20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 185.42 132.08 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a19155c-4a69-470e-bdc5-bed2386bbf9a")
-		(property "Reference" "D17"
-			(at 185.42 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 185.42 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 185.42 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 185.42 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 185.42 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 185.42 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 185.42 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "35657b29-0513-4070-ae9c-eca4e13b512b")
-		)
-		(pin "2"
-			(uuid "37205808-0e75-4dff-b084-719ea499d395")
-		)
-		(instances
-			(project "steno-keyboard"
-				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "D17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 83.82 132.08 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "601a0a68-c022-4b86-a8da-7e842b85d96e")
-		(property "Reference" "D5"
-			(at 83.82 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 83.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 83.82 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 83.82 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 83.82 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 83.82 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 83.82 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb924b9f-6e53-4af5-b65b-409ef20f1a0d")
-		)
-		(pin "2"
-			(uuid "b5033f59-584d-4ed2-a7ef-eea490f512c9")
-		)
-		(instances
-			(project "steno-keyboard"
-				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 144.78 144.78 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "685f2272-5b66-4ae0-9ff2-9458659caacd")
-		(property "Reference" "SW12"
-			(at 144.78 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 144.78 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
-			(at 144.78 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 144.78 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "451469d0-9b49-4e66-bc6f-353aa89422f4")
-		)
-		(pin "1"
-			(uuid "02c36a16-e828-4886-a279-1e3668c95442")
-		)
-		(instances
-			(project "steno-keyboard"
-				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "SW12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 119.38 119.38 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d19ebdb-df2d-4bf1-814d-45bffccb7d2f")
-		(property "Reference" "SW7"
-			(at 119.38 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 119.38 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
-			(at 119.38 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 119.38 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "71eb272f-3e8d-4f8a-b17f-3316a5afef7a")
-		)
-		(pin "1"
-			(uuid "9c030c90-e177-4aed-9168-b5277871b76b")
-		)
-		(instances
-			(project "steno-keyboard"
-				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "SW7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 312.42 119.38 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75233596-23f1-415d-b9fe-2160e9a72711")
-		(property "Reference" "D25"
-			(at 312.42 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 312.42 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 312.42 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 312.42 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 312.42 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 312.42 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 312.42 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fecf82c3-63d4-4fd2-9052-9b3a28eca133")
-		)
-		(pin "2"
-			(uuid "de67b118-be89-43aa-b3a3-d64b6ccafb8b")
-		)
-		(instances
-			(project "steno-keyboard"
-				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "D25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 134.62 144.78 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7950eef9-7cd9-4cdf-bb91-f47134066a79")
-		(property "Reference" "D12"
-			(at 134.62 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 134.62 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 134.62 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 134.62 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 134.62 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 134.62 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 134.62 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "93893c5c-7a7d-4e5c-b113-06353cb60959")
-		)
-		(pin "2"
-			(uuid "1a5388b8-26de-48be-9dfb-c595e59b1237")
-		)
-		(instances
-			(project "steno-keyboard"
-				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 185.42 144.78 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79b71521-204a-43df-a52c-07eaeeffba0e")
-		(property "Reference" "D18"
-			(at 185.42 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 185.42 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 185.42 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 185.42 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 185.42 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 185.42 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 185.42 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "639d3b33-94ee-4eac-809d-e4d9248d83f9")
-		)
-		(pin "2"
-			(uuid "b34423bc-cc4b-41e7-852a-081a4aae75b3")
-		)
-		(instances
-			(project "steno-keyboard"
-				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "D18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 170.18 132.08 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7bac2e3a-c288-4a24-be2b-1eb9bb1b9cbd")
-		(property "Reference" "SW14"
-			(at 170.18 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 170.18 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
-			(at 170.18 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 170.18 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "94f73672-5c57-4796-b3bb-f0d1647ee985")
-		)
-		(pin "1"
-			(uuid "0a9d5166-5319-441c-85e5-44ef5b95e84c")
-		)
-		(instances
-			(project "steno-keyboard"
-				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "SW14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 246.38 119.38 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ca0bcdf-fe10-4250-89e1-661f7331e69e")
-		(property "Reference" "SW21"
-			(at 246.38 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 246.38 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
-			(at 246.38 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 246.38 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 246.38 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "11bb3802-f395-4cad-ae81-24baa27b1b2c")
-		)
-		(pin "1"
-			(uuid "d2b6a146-76fc-4e60-9ecf-339ccfd7ca35")
-		)
-		(instances
-			(project "steno-keyboard"
-				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "SW21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 322.58 119.38 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7da737cb-d8b8-4b86-8fa9-33aeb5d61f3e")
-		(property "Reference" "SW25"
-			(at 322.58 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 322.58 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
-			(at 322.58 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 322.58 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 322.58 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "51be1dfc-634c-4918-a408-8b38a3ea1f48")
-		)
-		(pin "1"
-			(uuid "5bd3c9c9-170e-46af-b89d-3a8baaafd3e7")
-		)
-		(instances
-			(project "steno-keyboard"
-				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "SW25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 261.62 119.38 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ed80b50-d507-404d-9dc9-415a3a370ee4")
-		(property "Reference" "D23"
-			(at 261.62 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 261.62 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 261.62 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 261.62 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 261.62 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 261.62 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 261.62 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d2c3a584-3294-4b06-972f-4fd74d63d182")
-		)
-		(pin "2"
-			(uuid "2ff0e9ea-b38f-42e6-b3b7-e60aac309a6e")
-		)
-		(instances
-			(project "steno-keyboard"
-				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "D23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 287.02 119.38 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8863c740-9f93-45e4-be40-913afb22cafc")
-		(property "Reference" "D24"
-			(at 287.02 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 287.02 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 287.02 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 287.02 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 287.02 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 287.02 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 287.02 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cda4630c-532a-4750-9f14-3e3473edb43f")
-		)
-		(pin "2"
-			(uuid "f7ffa680-4961-4753-a384-9128884bd7c0")
-		)
-		(instances
-			(project "steno-keyboard"
-				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "D24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 109.22 119.38 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "89fdb6f8-145d-4977-bad3-49c2a8477c31")
-		(property "Reference" "D7"
-			(at 109.22 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 109.22 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 109.22 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 109.22 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 109.22 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 109.22 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 109.22 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b826682e-ad70-4daf-9d65-0393306f7626")
-		)
-		(pin "2"
-			(uuid "702a7f93-9e2b-46bf-b6a6-09bd25cc366a")
-		)
-		(instances
-			(project "steno-keyboard"
-				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 297.18 119.38 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e1d1585-fe56-4f28-aabe-be616589078f")
-		(property "Reference" "SW24"
-			(at 297.18 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 297.18 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
-			(at 297.18 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 297.18 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 297.18 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0aee0cfe-a4b0-491a-a74d-cb7bb0445ec7")
-		)
-		(pin "1"
-			(uuid "f21a6711-49dc-4dab-94e9-d4595691b8da")
-		)
-		(instances
-			(project "steno-keyboard"
-				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "SW24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 195.58 144.78 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "92a9daef-9457-4c0e-9877-43e10fcc3cf1")
+		(uuid "414488f1-1f47-4d73-b08f-6654af0d9e11")
 		(property "Reference" "SW18"
-			(at 195.58 137.16 0)
+			(at 347.98 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5420,15 +2402,15 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 195.58 139.7 0)
+			(at 347.98 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
-			(at 195.58 139.7 0)
+		(property "Footprint" ""
+			(at 347.98 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5437,7 +2419,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 139.7 0)
+			(at 347.98 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5446,7 +2428,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 195.58 144.78 0)
+			(at 347.98 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5455,10 +2437,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "907771df-ea84-43e0-9017-ae08bc9b8a5e")
+			(uuid "a152463e-cd13-4704-9b86-cac9aaa5e1de")
 		)
 		(pin "1"
-			(uuid "e010ba9c-3271-4ef0-b23e-a6ed9aa72ceb")
+			(uuid "0e4e0217-7dad-4f9d-94c7-a2452e634704")
 		)
 		(instances
 			(project "steno-keyboard"
@@ -5470,105 +2452,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
-		(at 160.02 132.08 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "955d25b0-e915-46b7-afbb-eda76a3352ec")
-		(property "Reference" "D14"
-			(at 160.02 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 160.02 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 160.02 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 160.02 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 160.02 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 160.02 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 160.02 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6af8850b-8faf-4467-aaa9-2df0eff15fa0")
-		)
-		(pin "2"
-			(uuid "32c04ebf-5722-48e1-9e50-07ff6761190f")
-		)
-		(instances
-			(project "steno-keyboard"
-				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "D14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 271.78 119.38 0)
-		(mirror y)
+		(at 347.98 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9a21c9af-6fa3-4133-99be-bdce1938edf0")
-		(property "Reference" "SW23"
-			(at 271.78 111.76 0)
+		(uuid "420c71b4-601f-4a84-bc4e-cb63a07d95b9")
+		(property "Reference" "SW10"
+			(at 347.98 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5576,15 +2470,15 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 271.78 114.3 0)
+			(at 347.98 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
-			(at 271.78 114.3 0)
+		(property "Footprint" ""
+			(at 347.98 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5593,7 +2487,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 271.78 114.3 0)
+			(at 347.98 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5602,7 +2496,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 271.78 119.38 0)
+			(at 347.98 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5611,15 +2505,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "dc3d5fe1-c535-491b-a052-28734db389af")
+			(uuid "de510665-b37a-4728-97fb-2b3bf5e7af5b")
 		)
 		(pin "1"
-			(uuid "ce36ce13-2b85-4b3b-819d-b8dfd3f417e2")
+			(uuid "fd133b24-75c1-456e-acfa-2eebe7cacda6")
 		)
 		(instances
 			(project "steno-keyboard"
 				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "SW23")
+					(reference "SW10")
 					(unit 1)
 				)
 			)
@@ -5627,623 +2521,16 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 195.58 132.08 0)
-		(mirror y)
+		(at 165.1 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9b891a81-0a44-4847-89d6-63cb7af117bf")
-		(property "Reference" "SW17"
-			(at 195.58 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 195.58 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
-			(at 195.58 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 195.58 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "390af8d1-70b3-4bba-90a3-bae47394998d")
-		)
-		(pin "1"
-			(uuid "1a846ec1-db2c-4536-9804-1d23a96a813a")
-		)
-		(instances
-			(project "steno-keyboard"
-				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "SW17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 170.18 119.38 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1720ae8-c728-4a4e-a2d0-fdb136679498")
-		(property "Reference" "SW13"
-			(at 170.18 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 170.18 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
-			(at 170.18 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 170.18 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0b1e2e9f-06ff-43f1-91af-27459fa7a977")
-		)
-		(pin "1"
-			(uuid "72d98dcc-b269-4cd8-be64-df8954648a0b")
-		)
-		(instances
-			(project "steno-keyboard"
-				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "SW13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 236.22 119.38 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5011bed-7c62-4be5-9198-d6d958c35d47")
-		(property "Reference" "D21"
-			(at 236.22 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 236.22 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 236.22 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 236.22 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 236.22 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 236.22 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 236.22 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eafb1f06-286c-4e66-8e04-4d5dccb150d7")
-		)
-		(pin "2"
-			(uuid "7c4600c9-1f67-4139-802c-b8f2762c2603")
-		)
-		(instances
-			(project "steno-keyboard"
-				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "D21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 109.22 144.78 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b2b928e2-812c-4556-9943-8b0cec502482")
-		(property "Reference" "D9"
-			(at 109.22 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 109.22 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 109.22 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 109.22 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 109.22 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 109.22 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 109.22 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d2dd17c0-ef91-4676-8dd3-d6cc939e381c")
-		)
-		(pin "2"
-			(uuid "4b659787-3574-4b89-8091-729a3ef79767")
-		)
-		(instances
-			(project "steno-keyboard"
-				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 170.18 144.78 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6439226-088b-4355-9c7d-5b7c5b0088ae")
-		(property "Reference" "SW15"
-			(at 170.18 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 170.18 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
-			(at 170.18 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 170.18 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cf5f30a1-23c3-4b6f-8814-aa9c83e79d6c")
-		)
-		(pin "1"
-			(uuid "8a892fbe-e1a3-4f71-abee-354a73eaf922")
-		)
-		(instances
-			(project "steno-keyboard"
-				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "SW15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 93.98 144.78 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b988c1a9-ccbe-46bc-bcc8-f9d201565dbd")
-		(property "Reference" "SW6"
-			(at 93.98 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 93.98 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
-			(at 93.98 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 93.98 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3afb53e9-47ea-42d0-8241-7b4487471c59")
-		)
-		(pin "1"
-			(uuid "839597de-d55f-499f-b26c-84cf1303737f")
-		)
-		(instances
-			(project "steno-keyboard"
-				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "SW6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 68.58 132.08 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b9eb17ed-446b-4c19-b79c-96fd56f5374b")
-		(property "Reference" "SW2"
-			(at 68.58 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 68.58 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
-			(at 68.58 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 68.58 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5d9a1397-6118-4482-9acf-6bd4d179695d")
-		)
-		(pin "1"
-			(uuid "1409413d-2800-49a9-b459-9232337157d6")
-		)
-		(instances
-			(project "steno-keyboard"
-				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 58.42 132.08 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be30250e-43bd-49bb-95c1-066da52a6c8b")
-		(property "Reference" "D2"
-			(at 58.42 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 58.42 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 58.42 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 58.42 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 58.42 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 58.42 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 58.42 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "68d0d93d-e697-4a5c-998d-7a9cc5c74320")
-		)
-		(pin "2"
-			(uuid "39ebe97d-4d44-4396-8345-8e8244df7d79")
-		)
-		(instances
-			(project "steno-keyboard"
-				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 68.58 144.78 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0af305f-02ee-4d2c-88aa-a24f0e9ccd62")
+		(uuid "4b2b8153-8a52-49ce-9fcb-49424eba56af")
 		(property "Reference" "SW3"
-			(at 68.58 137.16 0)
+			(at 165.1 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6251,15 +2538,15 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 68.58 139.7 0)
+			(at 165.1 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
-			(at 68.58 139.7 0)
+		(property "Footprint" ""
+			(at 165.1 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6268,7 +2555,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 139.7 0)
+			(at 165.1 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6277,7 +2564,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 68.58 144.78 0)
+			(at 165.1 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6286,10 +2573,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "a0e5c151-e3fa-4c78-8275-6fca5ab9ac56")
+			(uuid "07250f26-b8d7-4261-b7b9-e6f0fc7e54e9")
 		)
 		(pin "1"
-			(uuid "fc73d201-a92e-4ced-8456-ca6ed7ab7054")
+			(uuid "a16c24c8-9558-4b81-b82a-1060b29f6919")
 		)
 		(instances
 			(project "steno-keyboard"
@@ -6302,17 +2589,16 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 119.38 144.78 0)
-		(mirror y)
+		(at 142.24 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c4b70033-2ceb-448a-bd80-f5ff674b4ddc")
-		(property "Reference" "SW9"
-			(at 119.38 137.16 0)
+		(uuid "5149d85f-00c7-46d3-86d2-db5b031227de")
+		(property "Reference" "SW2"
+			(at 142.24 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6320,15 +2606,15 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 119.38 139.7 0)
+			(at 142.24 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
-			(at 119.38 139.7 0)
+		(property "Footprint" ""
+			(at 142.24 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6337,7 +2623,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 139.7 0)
+			(at 142.24 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6346,7 +2632,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 119.38 144.78 0)
+			(at 142.24 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6355,58 +2641,48 @@
 			)
 		)
 		(pin "2"
-			(uuid "555f7f98-c1a8-4d72-82ae-fc2cb7b343fa")
+			(uuid "377b781f-1028-4016-b271-ba74336dfb8e")
 		)
 		(pin "1"
-			(uuid "82476066-001f-4596-a8c5-f5d76b27e225")
+			(uuid "5747f6d7-9782-4200-a4fc-a482549634e4")
 		)
 		(instances
 			(project "steno-keyboard"
 				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "SW9")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
-		(at 134.62 132.08 0)
-		(mirror x)
+		(lib_id "Switch:SW_Push")
+		(at 302.26 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c4d595f1-fcd4-43fc-81ba-be2a84e5523b")
-		(property "Reference" "D11"
-			(at 134.62 125.73 0)
+		(uuid "5b921a78-d6f4-4eb6-8f50-d7e8f4716fa1")
+		(property "Reference" "SW16"
+			(at 302.26 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1N4148"
-			(at 134.62 128.27 0)
+		(property "Value" "SW_Push"
+			(at 302.26 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 134.62 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 134.62 132.08 0)
+		(property "Footprint" ""
+			(at 302.26 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6414,8 +2690,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 134.62 132.08 0)
+		(property "Datasheet" "~"
+			(at 302.26 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6423,77 +2699,58 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 134.62 132.08 0)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 302.26 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 134.62 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "46885e00-f71f-405f-90c0-37640362d38b")
 		)
 		(pin "2"
-			(uuid "a4f2f80d-d202-4478-bbf4-f1f374a77e96")
+			(uuid "3f8c310f-f16f-4dd9-8bf5-a8fe98c654af")
+		)
+		(pin "1"
+			(uuid "17e0040b-a479-43ec-8f2a-eed61996b713")
 		)
 		(instances
 			(project "steno-keyboard"
 				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "D11")
+					(reference "SW16")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
-		(at 160.02 119.38 0)
-		(mirror x)
+		(lib_id "Switch:SW_Push")
+		(at 187.96 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c7ddcb44-561c-4818-a8ba-ef4a43780843")
-		(property "Reference" "D13"
-			(at 160.02 113.03 0)
+		(uuid "5e184523-df99-4c99-89e3-4c1a560d299e")
+		(property "Reference" "SW21"
+			(at 187.96 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1N4148"
-			(at 160.02 115.57 0)
+		(property "Value" "SW_Push"
+			(at 187.96 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 160.02 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 160.02 119.38 0)
+		(property "Footprint" ""
+			(at 187.96 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6501,8 +2758,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 160.02 119.38 0)
+		(property "Datasheet" "~"
+			(at 187.96 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6510,34 +2767,773 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 160.02 119.38 0)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 187.96 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 160.02 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "71e828a8-6406-49c6-bbdd-80dea8cce3f3")
 		)
 		(pin "2"
-			(uuid "329bfb05-002f-4cf4-bc74-bcba4c2f80ea")
+			(uuid "9d99f1fa-7e31-4dbb-ac4d-8348b3e8b4e1")
+		)
+		(pin "1"
+			(uuid "c015f41f-ad33-44a2-9776-24f443676564")
 		)
 		(instances
 			(project "steno-keyboard"
 				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "D13")
+					(reference "SW21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 302.26 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b0c64ca-9df8-4c01-ba52-b6ba65c4d0e9")
+		(property "Reference" "SW8"
+			(at 302.26 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 302.26 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 302.26 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 302.26 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 302.26 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aa937852-7b3b-4d63-8afc-95ae2da408b1")
+		)
+		(pin "1"
+			(uuid "066cd979-5996-4163-9d27-f055db45356f")
+		)
+		(instances
+			(project "steno-keyboard"
+				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 279.4 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e574500-3343-4ef7-9b17-47b6e74e3ac7")
+		(property "Reference" "SW24"
+			(at 279.4 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 279.4 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 279.4 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1d36cd91-11f4-4b42-af36-6a016e20d79a")
+		)
+		(pin "1"
+			(uuid "8c8e62fe-313d-4f21-b11b-2fd8b1750882")
+		)
+		(instances
+			(project "steno-keyboard"
+				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
+					(reference "SW24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 279.4 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "751f207f-58bc-49e9-b70c-db240419f35a")
+		(property "Reference" "SW7"
+			(at 279.4 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 279.4 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 279.4 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4df4a50f-6589-4104-a523-1494defbe11d")
+		)
+		(pin "1"
+			(uuid "4a134377-882f-427c-a429-266f2fdb0486")
+		)
+		(instances
+			(project "steno-keyboard"
+				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 302.26 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76a1b10c-525b-46d3-8003-10cd276a639f")
+		(property "Reference" "SW25"
+			(at 302.26 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 302.26 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 302.26 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 302.26 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 302.26 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a95d737f-52c9-4f51-8e4f-d3aea3a8ffc5")
+		)
+		(pin "1"
+			(uuid "84a897d4-0197-43ea-a80d-4e6f043eaa6f")
+		)
+		(instances
+			(project "steno-keyboard"
+				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
+					(reference "SW25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 210.82 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77383fd4-c80f-4d87-a0b5-6d0ff7d0704f")
+		(property "Reference" "SW5"
+			(at 210.82 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 210.82 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 210.82 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "17e0cc54-497c-4b6d-b8eb-e829e9f9a57d")
+		)
+		(pin "1"
+			(uuid "804ee378-9f31-4a10-b68d-09c920c0fc94")
+		)
+		(instances
+			(project "steno-keyboard"
+				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 325.12 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80841e4b-3978-4254-b691-ba37e6cf46c8")
+		(property "Reference" "SW17"
+			(at 325.12 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 325.12 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 325.12 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 325.12 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 325.12 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "67962fcd-bada-4499-b61b-9ad94d31761d")
+		)
+		(pin "1"
+			(uuid "2a14d6a2-8ae3-4ef8-95ae-28a66e6bc06f")
+		)
+		(instances
+			(project "steno-keyboard"
+				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 187.96 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "987692a5-2abe-44e3-aa1b-4bf6a4e3aace")
+		(property "Reference" "SW4"
+			(at 187.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 187.96 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 187.96 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1897572f-6a21-4976-89e4-47cf1c2d44dd")
+		)
+		(pin "1"
+			(uuid "9d42a9af-1a8a-453e-be77-2b2355fc8ffe")
+		)
+		(instances
+			(project "steno-keyboard"
+				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 165.1 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98b15b57-74a8-4354-8495-a0ebe91bd4ea")
+		(property "Reference" "SW13"
+			(at 165.1 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 165.1 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 165.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "56428646-e03b-4d02-abf6-24de374bdf9c")
+		)
+		(pin "1"
+			(uuid "77e5eb2e-35e8-4129-981d-9ef1f87466a9")
+		)
+		(instances
+			(project "steno-keyboard"
+				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 119.38 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ecbc56e-f279-4a95-85bf-20493dce34db")
+		(property "Reference" "SW1"
+			(at 119.38 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 119.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 119.38 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2bbb26e0-f47c-4bf1-abef-e74f59f874dc")
+		)
+		(pin "1"
+			(uuid "6235ada0-4968-4af4-ba4f-1ba2a8f7e7d5")
+		)
+		(instances
+			(project ""
+				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 210.82 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4612370-c5df-478d-a152-efd048fc8572")
+		(property "Reference" "SW22"
+			(at 210.82 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 210.82 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 210.82 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c456c45f-3c11-46cf-be18-96408516402e")
+		)
+		(pin "1"
+			(uuid "37f836cf-3112-44e3-b8c2-feaea4dae52a")
+		)
+		(instances
+			(project "steno-keyboard"
+				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
+					(reference "SW22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 142.24 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcc564bb-de37-4017-82a5-841582e0b3c2")
+		(property "Reference" "SW12"
+			(at 142.24 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 142.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 142.24 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "06f6ef16-d4c4-4354-8116-278d88a41ea5")
+		)
+		(pin "1"
+			(uuid "4b5ac08a-63d3-40e5-9e4c-2e96b3ec58d5")
+		)
+		(instances
+			(project "steno-keyboard"
+				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
+					(reference "SW12")
 					(unit 1)
 				)
 			)
@@ -6610,279 +3606,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
-		(at 83.82 144.78 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e7a7841c-e32c-4534-900a-08e39120d316")
-		(property "Reference" "D6"
-			(at 83.82 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 83.82 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 83.82 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 83.82 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 83.82 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 83.82 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 83.82 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d98a9240-b92c-48b7-bc77-9ddee933b1d7")
-		)
-		(pin "2"
-			(uuid "5bc9e94a-866a-4a20-86df-fa986e22fde0")
-		)
-		(instances
-			(project "steno-keyboard"
-				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 134.62 119.38 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9268018-ae46-4f29-bbf4-c51ad259f65f")
-		(property "Reference" "D10"
-			(at 134.62 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 134.62 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 134.62 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 134.62 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 134.62 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 134.62 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 134.62 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d1b9326-97ad-4cd1-8e1b-b2b5ba17fcc9")
-		)
-		(pin "2"
-			(uuid "a2986d88-f380-48bd-afd6-32f6f34bcfdc")
-		)
-		(instances
-			(project "steno-keyboard"
-				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 210.82 132.08 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f351002a-84b3-4961-aaa1-2f00e7a5ad85")
-		(property "Reference" "D20"
-			(at 210.82 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 210.82 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 210.82 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 210.82 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 210.82 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 210.82 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f88c29a2-5e7a-40bc-9b1b-92e75762fcd8")
-		)
-		(pin "2"
-			(uuid "2a3c5c98-292e-402f-8032-8eb3ce683439")
-		)
-		(instances
-			(project "steno-keyboard"
-				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "D20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 144.78 119.38 0)
-		(mirror y)
+		(at 279.4 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f6426a29-7f76-4043-91bb-8f754ed31afa")
-		(property "Reference" "SW10"
-			(at 144.78 111.76 0)
+		(uuid "d5f9ef3d-13bd-4794-9a40-88c1409ea09a")
+		(property "Reference" "SW15"
+			(at 279.4 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6890,15 +3624,15 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 144.78 114.3 0)
+			(at 279.4 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
-			(at 144.78 114.3 0)
+		(property "Footprint" ""
+			(at 279.4 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6907,7 +3641,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 114.3 0)
+			(at 279.4 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6916,7 +3650,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 144.78 119.38 0)
+			(at 279.4 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6925,15 +3659,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "741ea1ae-b6a6-434e-8a8a-7971e4a85733")
+			(uuid "429954e5-eb29-4771-86dc-de62f6428021")
 		)
 		(pin "1"
-			(uuid "1db74500-b5e4-4ade-8445-def809a8658b")
+			(uuid "13436379-fc6f-47ad-aa18-d34041613506")
 		)
 		(instances
 			(project "steno-keyboard"
 				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "SW10")
+					(reference "SW15")
 					(unit 1)
 				)
 			)
@@ -6941,17 +3675,16 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 246.38 132.08 0)
-		(mirror y)
+		(at 165.1 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fbf1c7d0-3be0-4971-96c9-1cf8fcc478ff")
-		(property "Reference" "SW22"
-			(at 246.38 124.46 0)
+		(uuid "e312c567-f160-479a-9d47-e7c8e6b86e45")
+		(property "Reference" "SW20"
+			(at 165.1 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6959,15 +3692,15 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 246.38 127 0)
+			(at 165.1 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
-			(at 246.38 127 0)
+		(property "Footprint" ""
+			(at 165.1 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6976,7 +3709,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 127 0)
+			(at 165.1 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6985,7 +3718,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 246.38 132.08 0)
+			(at 165.1 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6994,15 +3727,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "0c3707ed-4b7d-4c02-ab36-f339c0dad4ea")
+			(uuid "c6697370-7173-4d83-a0c2-8054b3347d81")
 		)
 		(pin "1"
-			(uuid "91a15172-fff8-4758-8936-a5ac3fc8e43e")
+			(uuid "62149408-d81f-4019-b088-fde7eda5b4bc")
 		)
 		(instances
 			(project "steno-keyboard"
 				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "SW22")
+					(reference "SW20")
 					(unit 1)
 				)
 			)
@@ -7010,17 +3743,16 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 93.98 119.38 0)
-		(mirror y)
+		(at 187.96 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fc8244bb-b898-4add-8088-2e5e18d8216a")
-		(property "Reference" "SW4"
-			(at 93.98 111.76 0)
+		(uuid "eb0e78de-82e5-4a62-97c8-d25f1d95408d")
+		(property "Reference" "SW14"
+			(at 187.96 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7028,15 +3760,15 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 93.98 114.3 0)
+			(at 187.96 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
-			(at 93.98 114.3 0)
+		(property "Footprint" ""
+			(at 187.96 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7045,7 +3777,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 114.3 0)
+			(at 187.96 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7054,7 +3786,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 93.98 119.38 0)
+			(at 187.96 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7063,58 +3795,48 @@
 			)
 		)
 		(pin "2"
-			(uuid "920a5fc3-17cc-4877-88c9-c2d35a67b049")
+			(uuid "259de4b9-b3c4-4b22-b3cf-40c94505cfa0")
 		)
 		(pin "1"
-			(uuid "bc9c2a67-bf7b-4a57-a9fd-b94037f3fefb")
+			(uuid "8e01c5fe-017e-4b79-9dd7-31e7a6b6d0e6")
 		)
 		(instances
 			(project "steno-keyboard"
 				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "SW4")
+					(reference "SW14")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
-		(at 83.82 119.38 0)
-		(mirror x)
+		(lib_id "Switch:SW_Push")
+		(at 325.12 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fd355823-e643-4510-91a4-c79837fe5d3c")
-		(property "Reference" "D4"
-			(at 83.82 113.03 0)
+		(uuid "ec29ee2c-fb10-4016-8c9b-629e8c6ec69a")
+		(property "Reference" "SW9"
+			(at 325.12 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1N4148"
-			(at 83.82 115.57 0)
+		(property "Value" "SW_Push"
+			(at 325.12 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 83.82 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 83.82 119.38 0)
+		(property "Footprint" ""
+			(at 325.12 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7122,8 +3844,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 83.82 119.38 0)
+		(property "Datasheet" "~"
+			(at 325.12 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7131,34 +3853,161 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 83.82 119.38 0)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 325.12 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 83.82 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1aed19f5-5ae9-49f5-9b02-97a21044320c")
 		)
 		(pin "2"
-			(uuid "fbeabefc-0d91-4476-ae14-d11431913b78")
+			(uuid "2c33f8ef-6268-42bd-8d79-484652ad0142")
+		)
+		(pin "1"
+			(uuid "44eabac8-12e6-4bbe-a63e-013a97d04d32")
 		)
 		(instances
 			(project "steno-keyboard"
 				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
-					(reference "D4")
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 370.84 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f22df08e-99b5-476e-af49-0e0ad73caa90")
+		(property "Reference" "SW11"
+			(at 370.84 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 370.84 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 370.84 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 370.84 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 370.84 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "16f9cee8-8b91-43c9-bf1a-3509bbe39d43")
+		)
+		(pin "1"
+			(uuid "b5376099-e646-421d-b968-5b3935000302")
+		)
+		(instances
+			(project "steno-keyboard"
+				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 256.54 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f959de63-dc5c-477a-a1c2-ac15b827c000")
+		(property "Reference" "SW23"
+			(at 256.54 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 256.54 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 256.54 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "79ab06f1-c850-42cd-bbfb-a911b3be1323")
+		)
+		(pin "1"
+			(uuid "c95cfd7a-f8d1-4f5c-a644-e640d58467e4")
+		)
+		(instances
+			(project "steno-keyboard"
+				(path "/e5f177c4-7dbe-4f24-bca4-1a318cfae51c"
+					(reference "SW23")
 					(unit 1)
 				)
 			)
