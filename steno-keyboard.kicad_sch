@@ -1323,7 +1323,7 @@
 		)
 		(uuid "09192dbf-d7fd-422f-bbc0-2a9af6be7e74")
 	)
-	(label "BTN12"
+	(label "BTN23"
 		(at 222.25 73.66 180)
 		(effects
 			(font
@@ -1353,7 +1353,7 @@
 		)
 		(uuid "17998332-2fcd-4b6f-a75e-64ee0d1ed78b")
 	)
-	(label "BTN5"
+	(label "BTN11"
 		(at 222.25 55.88 180)
 		(effects
 			(font
@@ -1373,7 +1373,7 @@
 		)
 		(uuid "18b49d55-e9b9-4549-b2f0-1e7f4532de5c")
 	)
-	(label "BTN10"
+	(label "BTN21"
 		(at 222.25 68.58 180)
 		(effects
 			(font
@@ -1443,7 +1443,7 @@
 		)
 		(uuid "28bd8296-ab9f-4d04-991c-418c113ecbaa")
 	)
-	(label "BTN19"
+	(label "BTN5"
 		(at 267.97 53.34 0)
 		(effects
 			(font
@@ -1483,7 +1483,7 @@
 		)
 		(uuid "2b579ffb-45c4-43c3-ab2a-a5a7c5ba2d35")
 	)
-	(label "BTN6"
+	(label "BTN12"
 		(at 222.25 58.42 180)
 		(effects
 			(font
@@ -1543,7 +1543,7 @@
 		)
 		(uuid "429d052c-4e2e-4d0b-9d02-36e7b6dbb729")
 	)
-	(label "BTN13"
+	(label "BTN24"
 		(at 222.25 76.2 180)
 		(effects
 			(font
@@ -1563,7 +1563,7 @@
 		)
 		(uuid "53b41365-7388-49b4-b27d-526c83a5cccd")
 	)
-	(label "BTN8"
+	(label "BTN19"
 		(at 222.25 63.5 180)
 		(effects
 			(font
@@ -1573,7 +1573,7 @@
 		)
 		(uuid "5534792a-f35e-4205-bb91-515a64614274")
 	)
-	(label "BTN20"
+	(label "BTN6"
 		(at 267.97 55.88 0)
 		(effects
 			(font
@@ -1603,7 +1603,7 @@
 		)
 		(uuid "617660d5-cf3a-4aeb-bc10-5c2f51de9f6a")
 	)
-	(label "BTN14"
+	(label "BTN18"
 		(at 222.25 78.74 180)
 		(effects
 			(font
@@ -1643,7 +1643,7 @@
 		)
 		(uuid "67a07099-834b-4c89-af68-77f6c21fa33a")
 	)
-	(label "BTN24"
+	(label "BTN10"
 		(at 267.97 76.2 0)
 		(effects
 			(font
@@ -1683,7 +1683,7 @@
 		)
 		(uuid "746a6918-40c3-405e-880e-dee04b5dd181")
 	)
-	(label "BTN18"
+	(label "BTN14"
 		(at 267.97 50.8 0)
 		(effects
 			(font
@@ -1763,7 +1763,7 @@
 		)
 		(uuid "a0602c86-342b-476b-9d71-55f675d38970")
 	)
-	(label "BTN21"
+	(label "BTN7"
 		(at 267.97 58.42 0)
 		(effects
 			(font
@@ -1823,7 +1823,7 @@
 		)
 		(uuid "ae7a971a-e6ff-4666-9f02-9b1b9958273b")
 	)
-	(label "BTN22"
+	(label "BTN8"
 		(at 267.97 60.96 0)
 		(effects
 			(font
@@ -1873,7 +1873,7 @@
 		)
 		(uuid "b93895bd-4508-4d8e-9f0d-4ae79a5c2e00")
 	)
-	(label "BTN15"
+	(label "BTN17"
 		(at 222.25 81.28 180)
 		(effects
 			(font
@@ -1913,7 +1913,7 @@
 		)
 		(uuid "c74e9171-72a6-454a-b03b-7b0491050f91")
 	)
-	(label "BTN23"
+	(label "BTN9"
 		(at 267.97 73.66 0)
 		(effects
 			(font
@@ -1933,7 +1933,7 @@
 		)
 		(uuid "cf89a902-9a8b-4a08-b886-f7ea4292b7a9")
 	)
-	(label "BTN7"
+	(label "BTN13"
 		(at 222.25 60.96 180)
 		(effects
 			(font
@@ -1973,7 +1973,7 @@
 		)
 		(uuid "d7448689-577d-4f21-af15-3859f55b4a68")
 	)
-	(label "BTN11"
+	(label "BTN22"
 		(at 222.25 71.12 180)
 		(effects
 			(font
@@ -1983,7 +1983,7 @@
 		)
 		(uuid "da84f0a0-f6fd-433d-a029-e235c1469848")
 	)
-	(label "BTN9"
+	(label "BTN20"
 		(at 222.25 66.04 180)
 		(effects
 			(font
@@ -2023,7 +2023,7 @@
 		)
 		(uuid "ec24d0c8-b027-4ea4-b188-30b0a1052ce6")
 	)
-	(label "BTN17"
+	(label "BTN15"
 		(at 267.97 48.26 0)
 		(effects
 			(font
