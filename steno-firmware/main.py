@@ -1,53 +1,42 @@
-import board
-import digitalio
-import usb_hid
+from machine import Pin, UART
+import sys
 import time
-import usb_cdc
 
-def make_pin(gp_num):
-    pin = digitalio.DigitalInOut(getattr(board, f"GP{gp_num}"))
-    pin.direction = digitalio.Direction.INPUT
-    pin.pull = digitalio.Pull.UP
-    return pin
-
+# GPIO pin mapping for each steno key
 PINS = {
-    "STN_S":    make_pin(0), # BTN 0
-    "STN_TL":   make_pin(1), # BTN 1
-    "STN_PL":   make_pin(2), # BTN 2
-    "STN_HL":   make_pin(3), # BTN 3
-    "STN_ST1":  make_pin(4), # BTN 4
-    "STN_KL":   make_pin(5), # BTN 11
-    "STN_WL":   make_pin(6), # BTN 12
-    "STN_RL":   make_pin(7), # BTN 13
-    "NUML":     make_pin(8), # BTN 19
-    "STN_A":    make_pin(9), # BTN 20
-    "STN_O":    make_pin(10), # BTN 21
-    "STN_E":    make_pin(11), # BTN 22
-    "STN_U":    make_pin(12), # BTN 23
-    "NUMR":     make_pin(13), # BTN 24
-    "STN_ZR":   make_pin(14), # BTN 18
-    "STN_SR":   make_pin(15), # BTN 17
-    "STN_GR":   make_pin(16), # BTN 16
-    "STN_BR":   make_pin(17), # BTN 15
-    "STN_RR":   make_pin(18), # BTN 14
-    "STN_ST3":  make_pin(19), # BTN 5
-    "STN_FR":   make_pin(20), # BTN 6
-    "STN_PR":   make_pin(21), # BTN 7
-    "STN_LR":   make_pin(22), # BTN 8
-    "STN_TR":   make_pin(27), # BTN 9
-    "STN_DR":   make_pin(28) # BTN 10
+    "STN_S":    Pin(1, Pin.IN, Pin.PULL_UP), # BTN 0
+    "STN_TL":   Pin(2, Pin.IN, Pin.PULL_UP), # BTN 1
+    "STN_PL":   Pin(4, Pin.IN, Pin.PULL_UP), # BTN 2
+    "STN_HL":   Pin(5, Pin.IN, Pin.PULL_UP), # BTN 3
+    "STN_ST1":  Pin(6, Pin.IN, Pin.PULL_UP), # BTN 4
+    "STN_KL":   Pin(7, Pin.IN, Pin.PULL_UP), # BTN 11
+    "STN_WL":   Pin(9, Pin.IN, Pin.PULL_UP), # BTN 12
+    "STN_RL":   Pin(10, Pin.IN, Pin.PULL_UP), # BTN 13
+    "NUML":     Pin(11, Pin.IN, Pin.PULL_UP), # BTN 19
+    "STN_A":    Pin(12, Pin.IN, Pin.PULL_UP), # BTN 20
+    "STN_O":    Pin(14, Pin.IN, Pin.PULL_UP), # BTN 21
+    "STN_E":    Pin(15, Pin.IN, Pin.PULL_UP), # BTN 22
+    "STN_U":    Pin(16, Pin.IN, Pin.PULL_UP), # BTN 23
+    "NUMR":     Pin(17, Pin.IN, Pin.PULL_UP), # BTN 24
+    "STN_ZR":   Pin(19, Pin.IN, Pin.PULL_UP), # BTN 18
+    "STN_SR":   Pin(20, Pin.IN, Pin.PULL_UP), # BTN 17
+    "STN_GR":   Pin(21, Pin.IN, Pin.PULL_UP), # BTN 16
+    "STN_BR":   Pin(22, Pin.IN, Pin.PULL_UP), # BTN 15
+    "STN_RR":   Pin(24, Pin.IN, Pin.PULL_UP), # BTN 14
+    "STN_ST3":  Pin(25, Pin.IN, Pin.PULL_UP), # BTN 5
+    "STN_FR":   Pin(26, Pin.IN, Pin.PULL_UP), # BTN 6
+    "STN_PR":   Pin(27, Pin.IN, Pin.PULL_UP), # BTN 7
+    "STN_LR":   Pin(29, Pin.IN, Pin.PULL_UP), # BTN 8
+    "STN_TR":   Pin(32, Pin.IN, Pin.PULL_UP), # BTN 9
+    "STN_DR":   Pin(34,Pin.IN, Pin.PULL_UP) # BTN 10
 }
 
 DEBOUNCE_MS = 10 # debounce time in milliseconds for the keys
 CHORD_WINDOW_MS = 50 # time window in milliseconds to consider keys as part of the same chord
-steno_device = None
-for device in usb_hid.devices:
-    if device.usage_page == 0xFF50:
-        steno_device = device
-        break
-    
+serial = sys.stdout.buffer
+
 def is_pressed(pin):
-    return not pin.value
+    return pin.value() == 0
 
 # Return which keys are currently pressed
 def read_keys():
@@ -55,8 +44,8 @@ def read_keys():
 
 # Debounce logic, counts a key as pressed only if it's still pressed after DEBOUNCE_MS milliseconds
 def debounce_read():
-    first = read_keys()
-    time.sleep(DEBOUNCE_MS / 1000)
+    first  = read_keys()
+    time.sleep_ms(DEBOUNCE_MS)
     second = read_keys()
     return {name: first[name] and second[name] for name in PINS}
 
@@ -109,11 +98,15 @@ def build_gemini_report(chord):
 
     return bytes(result)
 
+
 def send_chord(chord):
-    usb_cdc.data.write(build_gemini_report(chord))
+    serial.write(build_gemini_report(chord))
+
+
+
+
 
 # MAIN LOOP
-BLANK_REPORT = bytes(6)
 BLANK_CHORD  = {name: False for name in PINS}
 
 # The chord itself, initally blank, and builds up over time as keys are pressed
@@ -131,18 +124,23 @@ while True:
     if any_pressed:
         if not in_chord:
             in_chord = True
-            chord_start_ms = time.monotonic_ns() // 1_000_000 
+            chord_start_ms = time.ticks_ms()
         accumulated = merge_chord(accumulated, current)
     else:
         if in_chord:
-            elapsed = (time.monotonic_ns() // 1_000_000) - chord_start_ms
+            assert chord_start_ms is not None # small little safety check
+            
+            elapsed = time.ticks_diff(time.ticks_ms(), chord_start_ms)
             remaining = CHORD_WINDOW_MS - elapsed
             if remaining > 0:
-                time.sleep(remaining / 1000)
+                time.sleep_ms(remaining)
                 accumulated = merge_chord(accumulated, debounce_read())
+
             send_chord(accumulated)
+
+            # Reset for next chord
             accumulated = dict(BLANK_CHORD)
             chord_start_ms = None
             in_chord = False
 
-    time.sleep(0.001)
+    time.sleep_ms(1)
