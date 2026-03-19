@@ -1,34 +1,34 @@
-from machine import Pin, UART
+from machine import Pin
 import sys
 import time
 
 # GPIO pin mapping for each steno key
 PINS = {
-    "STN_S":    Pin(1, Pin.IN, Pin.PULL_UP), # BTN 0
-    "STN_TL":   Pin(2, Pin.IN, Pin.PULL_UP), # BTN 1
-    "STN_PL":   Pin(4, Pin.IN, Pin.PULL_UP), # BTN 2
-    "STN_HL":   Pin(5, Pin.IN, Pin.PULL_UP), # BTN 3
-    "STN_ST1":  Pin(6, Pin.IN, Pin.PULL_UP), # BTN 4
-    "STN_KL":   Pin(7, Pin.IN, Pin.PULL_UP), # BTN 11
-    "STN_WL":   Pin(9, Pin.IN, Pin.PULL_UP), # BTN 12
-    "STN_RL":   Pin(10, Pin.IN, Pin.PULL_UP), # BTN 13
-    "NUML":     Pin(11, Pin.IN, Pin.PULL_UP), # BTN 19
-    "STN_A":    Pin(12, Pin.IN, Pin.PULL_UP), # BTN 20
-    "STN_O":    Pin(14, Pin.IN, Pin.PULL_UP), # BTN 21
-    "STN_E":    Pin(15, Pin.IN, Pin.PULL_UP), # BTN 22
-    "STN_U":    Pin(16, Pin.IN, Pin.PULL_UP), # BTN 23
-    "NUMR":     Pin(17, Pin.IN, Pin.PULL_UP), # BTN 24
-    "STN_ZR":   Pin(19, Pin.IN, Pin.PULL_UP), # BTN 18
-    "STN_SR":   Pin(20, Pin.IN, Pin.PULL_UP), # BTN 17
-    "STN_GR":   Pin(21, Pin.IN, Pin.PULL_UP), # BTN 16
-    "STN_BR":   Pin(22, Pin.IN, Pin.PULL_UP), # BTN 15
-    "STN_RR":   Pin(24, Pin.IN, Pin.PULL_UP), # BTN 14
-    "STN_ST3":  Pin(25, Pin.IN, Pin.PULL_UP), # BTN 5
-    "STN_FR":   Pin(26, Pin.IN, Pin.PULL_UP), # BTN 6
-    "STN_PR":   Pin(27, Pin.IN, Pin.PULL_UP), # BTN 7
-    "STN_LR":   Pin(29, Pin.IN, Pin.PULL_UP), # BTN 8
-    "STN_TR":   Pin(32, Pin.IN, Pin.PULL_UP), # BTN 9
-    "STN_DR":   Pin(34,Pin.IN, Pin.PULL_UP) # BTN 10
+    "STN_S":    Pin(0, Pin.IN, Pin.PULL_UP), # BTN 0
+    "STN_TL":   Pin(1, Pin.IN, Pin.PULL_UP), # BTN 1
+    "STN_PL":   Pin(2, Pin.IN, Pin.PULL_UP), # BTN 2
+    "STN_HL":   Pin(3, Pin.IN, Pin.PULL_UP), # BTN 3
+    "STN_ST1":  Pin(4, Pin.IN, Pin.PULL_UP), # BTN 4
+    "STN_KL":   Pin(5, Pin.IN, Pin.PULL_UP), # BTN 11
+    "STN_WL":   Pin(6, Pin.IN, Pin.PULL_UP), # BTN 12
+    "STN_RL":   Pin(7, Pin.IN, Pin.PULL_UP), # BTN 13
+    "NUML":     Pin(8, Pin.IN, Pin.PULL_UP), # BTN 19
+    "STN_A":    Pin(9, Pin.IN, Pin.PULL_UP), # BTN 20
+    "STN_O":    Pin(10, Pin.IN, Pin.PULL_UP), # BTN 21
+    "STN_E":    Pin(11, Pin.IN, Pin.PULL_UP), # BTN 22
+    "STN_U":    Pin(12, Pin.IN, Pin.PULL_UP), # BTN 23
+    "NUMR":     Pin(13, Pin.IN, Pin.PULL_UP), # BTN 24
+    "STN_ZR":   Pin(14, Pin.IN, Pin.PULL_UP), # BTN 18
+    "STN_SR":   Pin(15, Pin.IN, Pin.PULL_UP), # BTN 17
+    "STN_GR":   Pin(16, Pin.IN, Pin.PULL_UP), # BTN 16
+    "STN_BR":   Pin(17, Pin.IN, Pin.PULL_UP), # BTN 15
+    "STN_RR":   Pin(18, Pin.IN, Pin.PULL_UP), # BTN 14
+    "STN_ST3":  Pin(19, Pin.IN, Pin.PULL_UP), # BTN 5
+    "STN_FR":   Pin(20, Pin.IN, Pin.PULL_UP), # BTN 6
+    "STN_PR":   Pin(21, Pin.IN, Pin.PULL_UP), # BTN 7
+    "STN_LR":   Pin(22, Pin.IN, Pin.PULL_UP), # BTN 8
+    "STN_TR":   Pin(27, Pin.IN, Pin.PULL_UP), # BTN 9
+    "STN_DR":   Pin(28,Pin.IN, Pin.PULL_UP) # BTN 10
 }
 
 DEBOUNCE_MS = 10 # debounce time in milliseconds for the keys
