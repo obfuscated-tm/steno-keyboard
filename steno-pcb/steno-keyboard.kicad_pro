@@ -506,7 +506,7 @@
       "plot": "steno-keyboard-gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "steno-keyboard.step",
       "svg": "",
       "vrml": ""
     },
