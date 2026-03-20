@@ -336,6 +336,17 @@
 			(uuid "40a205f9-3791-44e5-b4d2-a66e2bcaf842")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/mrleu/OneDrive/Documents/KiCad/3D-Models/switch.step"
+			(offset
+				(xyz 0 -1 5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "MX_Solderable:MX-Solderable-1U"
 		(layer "F.Cu")
@@ -555,6 +566,17 @@
 			(uuid "b6dbce34-be43-4b05-8b2c-774c56fdd545")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/mrleu/OneDrive/Documents/KiCad/3D-Models/switch.step"
+			(offset
+				(xyz 0 -1 5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "MX_Solderable:MX-Solderable-1U"
 		(layer "F.Cu")
@@ -774,6 +796,17 @@
 			(uuid "5b72cd4c-ba29-487e-bcd2-fce1baad645c")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/mrleu/OneDrive/Documents/KiCad/3D-Models/switch.step"
+			(offset
+				(xyz 0 -1 5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "MX_Solderable:MX-Solderable-1U"
 		(layer "F.Cu")
@@ -1005,6 +1038,7 @@
 			)
 		)
 		(model "C:/Users/mrleu/OneDrive/Documents/KiCad/3D-Models/1x1 R3 v8.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 11.5)
 			)
@@ -1246,6 +1280,7 @@
 			)
 		)
 		(model "C:/Users/mrleu/OneDrive/Documents/KiCad/3D-Models/1x1 R3 v8.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 10)
 			)
@@ -5518,6 +5553,17 @@
 			(uuid "acd7f081-7213-403b-9ae3-44705313c265")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/mrleu/OneDrive/Documents/KiCad/3D-Models/switch.step"
+			(offset
+				(xyz 0 -1 5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "MX_Solderable:MX-Solderable-1U"
 		(layer "F.Cu")
@@ -5737,6 +5783,17 @@
 			(uuid "6c2e4164-c40f-4869-8fd2-76a182338b1a")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/mrleu/OneDrive/Documents/KiCad/3D-Models/switch.step"
+			(offset
+				(xyz 0 -1 5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "MX_Solderable:MX-Solderable-1U"
 		(layer "F.Cu")
@@ -5956,6 +6013,17 @@
 			(uuid "5f38cef5-c9b6-4aee-9eef-f23db3621cae")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/mrleu/OneDrive/Documents/KiCad/3D-Models/switch.step"
+			(offset
+				(xyz 0 -1 5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "MX_Solderable:MX-Solderable-1U"
 		(layer "F.Cu")
@@ -6187,6 +6255,7 @@
 			)
 		)
 		(model "C:/Users/mrleu/OneDrive/Documents/KiCad/3D-Models/1x2 R3 v6.step"
+			(hide yes)
 			(offset
 				(xyz -48.5 105.5 11.5)
 			)
@@ -6428,6 +6497,7 @@
 			)
 		)
 		(model "C:/Users/mrleu/OneDrive/Documents/KiCad/3D-Models/1x1 R3 v8.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 11.5)
 			)
@@ -6657,6 +6727,17 @@
 			(uuid "40990a53-3792-4cb4-a22c-cf8c34e09324")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/mrleu/OneDrive/Documents/KiCad/3D-Models/switch.step"
+			(offset
+				(xyz 0 -1 5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "MX_Solderable:MX-Solderable-1U"
 		(layer "F.Cu")
@@ -6888,6 +6969,7 @@
 			)
 		)
 		(model "C:/Users/mrleu/OneDrive/Documents/KiCad/3D-Models/1x1 R3 v8.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 10)
 			)
@@ -7117,6 +7199,17 @@
 			(uuid "940fe704-9426-4926-83c0-fe4d59417c9c")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/mrleu/OneDrive/Documents/KiCad/3D-Models/switch.step"
+			(offset
+				(xyz 0 -1 5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
@@ -7538,6 +7631,7 @@
 			)
 		)
 		(model "C:/Users/mrleu/OneDrive/Documents/KiCad/3D-Models/1x2 R3 v6.step"
+			(hide yes)
 			(offset
 				(xyz 48.5 -105.5 12)
 			)
@@ -7862,6 +7956,17 @@
 			(uuid "9472a7e8-e6dd-4109-ab25-3181c736d898")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/mrleu/OneDrive/Documents/KiCad/3D-Models/switch.step"
+			(offset
+				(xyz 0 -1 5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "MX_Solderable:MX-Solderable-1U"
 		(layer "F.Cu")
@@ -8082,6 +8187,7 @@
 		)
 		(embedded_fonts no)
 		(model "C:/Users/mrleu/OneDrive/Documents/KiCad/3D-Models/1x1 R3 v8.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 11.5)
 			)
@@ -8334,6 +8440,7 @@
 			)
 		)
 		(model "C:/Users/mrleu/OneDrive/Documents/KiCad/3D-Models/1x1 R3 v8.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 11.5)
 			)
@@ -8575,6 +8682,7 @@
 			)
 		)
 		(model "C:/Users/mrleu/OneDrive/Documents/KiCad/3D-Models/1x1 R3 v8.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 11.5)
 			)
@@ -8804,6 +8912,17 @@
 			(uuid "54fae2cf-8a68-4477-b30d-d4beeab5629f")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/mrleu/OneDrive/Documents/KiCad/3D-Models/switch.step"
+			(offset
+				(xyz 0 -1 5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "MX_Solderable:MX-Solderable-1U"
 		(layer "F.Cu")
@@ -9023,6 +9142,17 @@
 			(uuid "0e2fc390-911c-411f-9979-49c5af8e0cc3")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/mrleu/OneDrive/Documents/KiCad/3D-Models/switch.step"
+			(offset
+				(xyz 0 -1 5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "MX_Solderable:MX-Solderable-1U"
 		(layer "F.Cu")
@@ -9242,6 +9372,17 @@
 			(uuid "eef58515-409e-4c08-80fa-ff91a3b102b3")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/mrleu/OneDrive/Documents/KiCad/3D-Models/switch.step"
+			(offset
+				(xyz 0 -1 5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "MX_Solderable:MX-Solderable-1U"
 		(layer "F.Cu")
@@ -9461,6 +9602,17 @@
 			(uuid "38b051f6-cf90-4aaf-9dd0-a4a50218bd18")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/mrleu/OneDrive/Documents/KiCad/3D-Models/switch.step"
+			(offset
+				(xyz 0 -1 5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "MX_Solderable:MX-Solderable-1U"
 		(layer "F.Cu")
@@ -9680,6 +9832,17 @@
 			(uuid "202b24b7-0599-40f1-9325-18b7a9a2f09b")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/mrleu/OneDrive/Documents/KiCad/3D-Models/switch.step"
+			(offset
+				(xyz 0 -1 5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
@@ -9994,6 +10157,17 @@
 			(uuid "bbc369b9-cddb-4738-8091-e1d99761260d")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/mrleu/OneDrive/Documents/KiCad/3D-Models/switch.step"
+			(offset
+				(xyz 0 -1 5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "MX_Solderable:MX-Solderable-1U"
 		(layer "F.Cu")
@@ -10225,6 +10399,7 @@
 			)
 		)
 		(model "C:/Users/mrleu/OneDrive/Documents/KiCad/3D-Models/1x2 R3 v6.step"
+			(hide yes)
 			(offset
 				(xyz 48.5 -105.5 11.5)
 			)
