@@ -12,6 +12,7 @@ The PCB schematics and design, CAD step files, and firmware are stored within th
 <img width="1907" height="1073" alt="steno-keyless" src="https://github.com/user-attachments/assets/84d33cd3-8685-4a9c-b051-875b83170505" />  
 
 <img width="1907" height="1073" alt="steno-pcb" src="https://github.com/user-attachments/assets/fd1a6110-032c-40b7-9886-8f9e9c90a9ea" />  
+
 * The decision to have each switch have their own GPIO port is just for ease of assembly and that there was no reason not to do so.  
 
 ## Bill of Materials 
