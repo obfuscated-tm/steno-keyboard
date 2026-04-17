@@ -13,6 +13,7 @@ The PCB schematics and design, CAD step files, and firmware are stored within th
 - 25 Mechanical switches (Cherry MX)
 - 1 Raspberry Pi Pico
 - 1 PCB
+- 1 Micro USB cable
 - 3 3D printed 2.5u Steno keycaps (OR 2u standard keycaps)
 - 22 3D printed 1.5u Steno keycaps (OR 1u standard keycaps)
 - 1 3D printed enclosure (Optional, 3 parts)  
